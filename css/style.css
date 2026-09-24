@@ -7027,3 +7027,1605 @@ h2 span {
     }
 
 }
+
+/* =========================================================
+   DUCHESS DESTINATION DETAIL PAGES
+   Kenya / Africa Collection
+========================================================= */
+
+
+/* =========================================================
+   DESTINATION DETAIL HERO
+========================================================= */
+
+.destination-detail-hero {
+    position: relative;
+    min-height: 82vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-image: url("https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=2000&q=90");
+    background-size: cover;
+    background-position: center;
+}
+
+.destination-detail-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(10, 10, 8, 0.82) 0%,
+            rgba(10, 10, 8, 0.58) 45%,
+            rgba(10, 10, 8, 0.25) 100%
+        );
+}
+
+.destination-detail-hero-content {
+    position: relative;
+    z-index: 2;
+    padding-top: 110px;
+    padding-bottom: 90px;
+    max-width: 850px;
+}
+
+.destination-detail-hero-content h1 {
+    margin: 18px 0 18px;
+    font-size: clamp(4rem, 9vw, 8rem);
+    line-height: 0.9;
+    font-weight: 500;
+    letter-spacing: -0.055em;
+}
+
+.destination-detail-hero-content p {
+    max-width: 620px;
+    margin: 0;
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.destination-hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.destination-hero-meta span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 42px;
+    padding: 0 18px;
+    border: 1px solid rgba(198, 161, 91, 0.5);
+    border-radius: 999px;
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.destination-detail-intro {
+    background: #f7f4ed;
+}
+
+.destination-detail-intro-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 90px;
+    align-items: start;
+}
+
+.destination-detail-intro-grid h2 {
+    margin-top: 15px;
+    font-size: clamp(2.6rem, 5vw, 4.8rem);
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -0.045em;
+}
+
+.destination-detail-intro-grid p {
+    margin: 0 0 22px;
+    max-width: 620px;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: rgba(25, 25, 22, 0.72);
+}
+
+.destination-detail-intro-grid p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   SIGNATURE EXPERIENCE
+========================================================= */
+
+.destination-experience {
+    background: #ffffff;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    margin-top: 60px;
+    background: rgba(25, 25, 22, 0.12);
+    border: 1px solid rgba(25, 25, 22, 0.12);
+}
+
+.experience-card {
+    min-height: 310px;
+    padding: 38px 30px;
+    background: #ffffff;
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-6px);
+    background: #f8f5ee;
+}
+
+.experience-number {
+    display: block;
+    margin-bottom: 70px;
+    color: #b18b4f;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+}
+
+.experience-card h3 {
+    margin: 0 0 14px;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.experience-card p {
+    margin: 0;
+    color: rgba(25, 25, 22, 0.68);
+    line-height: 1.7;
+    font-size: 0.95rem;
+}
+
+
+/* =========================================================
+   JOURNEY OPTIONS
+========================================================= */
+
+.journey-options {
+    background: #11110f;
+    color: #ffffff;
+}
+
+.journey-options .section-heading p {
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.journey-options-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 60px;
+}
+
+.journey-option-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 570px;
+    padding: 38px;
+    border: 1px solid rgba(198, 161, 91, 0.22);
+    background: rgba(255, 255, 255, 0.035);
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background 0.3s ease;
+}
+
+.journey-option-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(198, 161, 91, 0.55);
+    background: rgba(255, 255, 255, 0.055);
+}
+
+.journey-option-card.featured {
+    border-color: rgba(198, 161, 91, 0.72);
+    background: rgba(198, 161, 91, 0.08);
+}
+
+.journey-option-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.journey-option-number {
+    color: #c6a15b;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+}
+
+.journey-option-card h3 {
+    margin: 55px 0 18px;
+    max-width: 350px;
+    font-size: clamp(1.7rem, 2.5vw, 2.2rem);
+    line-height: 1.05;
+    font-weight: 500;
+}
+
+.journey-option-card > p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 0.96rem;
+    line-height: 1.75;
+}
+
+.journey-price {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: auto;
+    margin-bottom: 30px;
+    padding-top: 35px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.journey-price span {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.journey-price strong {
+    margin: 3px 0 7px;
+    color: #c6a15b;
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+
+.journey-option-card .btn {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* =========================================================
+   HIGHLIGHTS
+========================================================= */
+
+.destination-highlights {
+    background: #f7f4ed;
+}
+
+.destination-highlights-grid {
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 100px;
+    align-items: start;
+}
+
+.destination-highlights-grid h2 {
+    margin-top: 15px;
+    font-size: clamp(2.6rem, 5vw, 4.6rem);
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -0.045em;
+}
+
+.highlight-list {
+    border-top: 1px solid rgba(25, 25, 22, 0.16);
+}
+
+.highlight-item {
+    display: grid;
+    grid-template-columns: 55px 1fr;
+    gap: 20px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(25, 25, 22, 0.16);
+}
+
+.highlight-item > span {
+    color: #b18b4f;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+}
+
+.highlight-item h3 {
+    margin: 0 0 8px;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.highlight-item p {
+    margin: 0;
+    max-width: 560px;
+    color: rgba(25, 25, 22, 0.68);
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   BEST SEASON
+========================================================= */
+
+.destination-season {
+    background: #ffffff;
+}
+
+.destination-season-inner {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 100px;
+    padding: 80px;
+    background: #11110f;
+    color: #ffffff;
+}
+
+.destination-season-inner h2 {
+    margin-top: 15px;
+    font-size: clamp(2.4rem, 4.5vw, 4rem);
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -0.045em;
+}
+
+.destination-season-inner > div:last-child {
+    align-self: center;
+}
+
+.destination-season-inner p {
+    margin: 0 0 22px;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.destination-season-inner p:last-child {
+    margin-bottom: 0;
+}
+
+.destination-season-inner strong {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+/* =========================================================
+   PLANNING
+========================================================= */
+
+.destination-planning {
+    background: #f7f4ed;
+}
+
+.planning-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 60px;
+}
+
+.planning-info-card {
+    padding: 38px 32px;
+    border: 1px solid rgba(25, 25, 22, 0.12);
+    background: #ffffff;
+}
+
+.planning-info-card h3 {
+    margin: 25px 0 14px;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.planning-info-card p {
+    margin: 0;
+    color: rgba(25, 25, 22, 0.68);
+    line-height: 1.75;
+    font-size: 0.94rem;
+}
+
+
+/* =========================================================
+   VISA SNAPSHOT
+========================================================= */
+
+.visa-snapshot {
+    background: #ffffff;
+}
+
+.visa-snapshot-inner {
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 100px;
+    padding: 80px;
+    border: 1px solid rgba(25, 25, 22, 0.12);
+}
+
+.visa-snapshot-inner h2 {
+    margin-top: 15px;
+    font-size: clamp(2.5rem, 4.5vw, 4.2rem);
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -0.045em;
+}
+
+.visa-snapshot-inner > div:last-child {
+    align-self: center;
+}
+
+.visa-snapshot-inner p {
+    margin: 0 0 20px;
+    color: rgba(25, 25, 22, 0.68);
+    line-height: 1.8;
+}
+
+.text-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+    color: #11110f;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid #c6a15b;
+    padding-bottom: 5px;
+    transition: gap 0.25s ease;
+}
+
+.text-link:hover {
+    gap: 18px;
+}
+
+.text-link span {
+    color: #b18b4f;
+    font-size: 1.1rem;
+}
+
+
+/* =========================================================
+   FINAL CTA
+========================================================= */
+
+.destination-final-cta {
+    background: #11110f;
+    color: #ffffff;
+    text-align: center;
+}
+
+.destination-final-cta-inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.destination-final-cta h2 {
+    margin: 18px 0 18px;
+    font-size: clamp(3rem, 7vw, 6rem);
+    line-height: 0.95;
+    font-weight: 500;
+    letter-spacing: -0.055em;
+}
+
+.destination-final-cta p {
+    max-width: 580px;
+    margin: 0 auto 35px;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 1.05rem;
+    line-height: 1.75;
+}
+
+
+/* =========================================================
+   DESTINATION COLLECTION PAGE ADDITIONS
+========================================================= */
+
+.destination-tier-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 60px;
+}
+
+.destination-tier-card {
+    padding: 35px 30px;
+    border: 1px solid rgba(25, 25, 22, 0.12);
+    background: #ffffff;
+}
+
+.destination-tier-number {
+    display: block;
+    margin-bottom: 45px;
+    color: #b18b4f;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+}
+
+.destination-tier-card h3 {
+    margin: 18px 0 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.destination-tier-card p {
+    margin: 0;
+    color: rgba(25, 25, 22, 0.68);
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   DESTINATION COLLECTION PACKAGE NOTE
+========================================================= */
+
+.destination-package-note {
+    background: #11110f;
+    color: #ffffff;
+}
+
+.destination-package-note-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.destination-package-note-inner h2 {
+    margin-top: 15px;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -0.045em;
+}
+
+.destination-package-note-inner p {
+    margin: 0 0 20px;
+    color: rgba(255, 255, 255, 0.68);
+    line-height: 1.8;
+}
+
+.destination-package-note-inner p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   DESTINATION CTA
+========================================================= */
+
+.destination-cta {
+    position: relative;
+    background-image:
+        linear-gradient(
+            rgba(10, 10, 9, 0.55),
+            rgba(10, 10, 9, 0.55)
+        ),
+        url("../images/wheretogo.jpg");
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    min-height: 520px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+
+/* CTA CONTENT */
+
+.destination-cta .container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+
+.destination-cta-content {
+    max-width: 760px;
+    margin: 0 auto;
+
+    text-align: center;
+    color: #fff;
+
+    padding: 80px 24px;
+}
+
+
+.destination-cta-content .eyebrow {
+    color: #d4af37;
+}
+
+
+.destination-cta-content h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.destination-cta-content p {
+    max-width: 620px;
+    margin: 0 auto 32px;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .destination-cta {
+        min-height: 460px;
+        background-position: center center;
+    }
+
+    .destination-cta-content {
+        padding: 70px 20px;
+    }
+
+}
+.destination-cta-inner {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.destination-cta-content h2 {
+    margin: 18px 0;
+    font-size: clamp(2.8rem, 6vw, 5.5rem);
+    line-height: 0.95;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+}
+
+.destination-cta-content p {
+    max-width: 650px;
+    margin: 0 auto 32px;
+    color: rgba(25, 25, 22, 0.68);
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   RESPONSIVE — TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .journey-options-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .journey-option-card {
+        min-height: auto;
+    }
+
+    .journey-option-card h3 {
+        margin-top: 45px;
+    }
+
+    .destination-highlights-grid {
+        grid-template-columns: 1fr;
+        gap: 55px;
+    }
+
+    .destination-season-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 55px;
+    }
+
+    .planning-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .visa-snapshot-inner {
+        grid-template-columns: 1fr;
+        gap: 45px;
+        padding: 55px;
+    }
+
+    .destination-tier-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .destination-package-note-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE — MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .destination-detail-hero {
+        min-height: 76vh;
+        background-position: 62% center;
+    }
+
+    .destination-detail-overlay {
+        background:
+            linear-gradient(
+                90deg,
+                rgba(10, 10, 8, 0.78),
+                rgba(10, 10, 8, 0.48)
+            );
+    }
+
+    .destination-detail-hero-content {
+        padding-top: 130px;
+        padding-bottom: 70px;
+    }
+
+    .destination-detail-hero-content h1 {
+        font-size: clamp(3.8rem, 19vw, 6rem);
+    }
+
+    .destination-detail-hero-content p {
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .destination-hero-meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .destination-hero-meta span {
+        font-size: 0.65rem;
+    }
+
+
+    .destination-detail-intro-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .destination-detail-intro-grid h2 {
+        font-size: 2.8rem;
+    }
+
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-card {
+        min-height: auto;
+        padding: 32px 25px;
+    }
+
+    .experience-number {
+        margin-bottom: 45px;
+    }
+
+
+    .journey-options-grid {
+        gap: 14px;
+    }
+
+    .journey-option-card {
+        padding: 30px 25px;
+    }
+
+    .journey-option-card h3 {
+        margin-top: 45px;
+        font-size: 1.8rem;
+    }
+
+    .journey-price strong {
+        font-size: 2rem;
+    }
+
+
+    .destination-highlights-grid {
+        gap: 40px;
+    }
+
+    .destination-highlights-grid h2 {
+        font-size: 2.8rem;
+    }
+
+    .highlight-item {
+        grid-template-columns: 40px 1fr;
+        gap: 12px;
+        padding: 25px 0;
+    }
+
+
+    .destination-season-inner {
+        padding: 38px 25px;
+    }
+
+    .destination-season-inner h2 {
+        font-size: 2.7rem;
+    }
+
+
+    .planning-info-card {
+        padding: 30px 25px;
+    }
+
+
+    .visa-snapshot-inner {
+        padding: 38px 25px;
+    }
+
+    .visa-snapshot-inner h2 {
+        font-size: 2.8rem;
+    }
+
+
+    .destination-final-cta h2 {
+        font-size: 3.5rem;
+    }
+
+
+    .destination-package-note-inner h2 {
+        font-size: 2.8rem;
+    }
+
+    .destination-cta-content h2 {
+        font-size: 3.2rem;
+    }
+
+}
+
+/* ================= SOUTH AFRICA HERO ================= */
+
+.south-africa-hero {
+    background-image: url("https://images.unsplash.com/photo-1580060839134-75a5edca2e99?auto=format&fit=crop&w=2000&q=90");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* ================= SOUTH AFRICA HERO ================= */
+
+.south-africa-hero {
+    background-image: url("https://images.unsplash.com/photo-1580060839134-75a5edca2e99?auto=format&fit=crop&w=2000&q=90");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 82vh;
+  }
+  
+  .south-africa-hero .destination-detail-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(10, 10, 9, 0.72) 0%,
+      rgba(10, 10, 9, 0.48) 50%,
+      rgba(10, 10, 9, 0.30) 100%
+    );
+  }
+  
+  .south-africa-hero .destination-detail-hero-content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .south-africa-hero .destination-hero-meta {
+    justify-content: center;
+  }
+  
+  .south-africa-hero .destination-detail-hero-content > p:last-child {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .morocco-hero {
+    background-image: url("https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?auto=format&fit=crop&w=2000&q=90");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .morocco-hero .destination-detail-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(10, 10, 9, 0.72) 0%,
+      rgba(10, 10, 9, 0.48) 50%,
+      rgba(10, 10, 9, 0.30) 100%
+    );
+  }
+  
+  .morocco-hero .destination-detail-hero-content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .morocco-hero .destination-hero-meta {
+    justify-content: center;
+  }
+  
+  .morocco-hero .destination-detail-hero-content > p:last-child {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* ================= EGYPT HERO ================= */
+
+.egypt-collection-hero {
+    background-image: url("https://images.unsplash.com/photo-1568322445389-f64ac2515020?auto=format&fit=crop&w=2000&q=90");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .egypt-collection-hero .destination-detail-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(10, 10, 9, 0.74) 0%,
+      rgba(10, 10, 9, 0.50) 50%,
+      rgba(10, 10, 9, 0.28) 100%
+    );
+  }
+  
+  .egypt-collection-hero .destination-detail-hero-content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .egypt-collection-hero .destination-hero-meta {
+    justify-content: center;
+  }
+  
+  .egypt-collection-hero .destination-detail-hero-content > p:last-child {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ /* =========================================
+   RWANDA DESTINATION HERO
+========================================= */
+
+.rwanda-hero {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Volcanoes_National_Park_Rwanda.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 82vh;
+}
+
+
+/* Luxury dark overlay */
+
+.rwanda-hero .destination-detail-overlay {
+    background: linear-gradient(
+        90deg,
+        rgba(10, 10, 9, 0.76) 0%,
+        rgba(10, 10, 9, 0.52) 50%,
+        rgba(10, 10, 9, 0.28) 100%
+    );
+}
+
+
+/* =========================================
+   CENTER HERO CONTENT
+========================================= */
+
+.rwanda-hero .destination-detail-hero-content {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+    padding: 0 40px;
+
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Eyebrow */
+
+.rwanda-hero .destination-detail-hero-content .eyebrow {
+    text-align: center;
+}
+
+
+/* Main title */
+
+.rwanda-hero .destination-detail-hero-content h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Description */
+
+.rwanda-hero .destination-detail-hero-content > p {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/* Hero metadata */
+
+.rwanda-hero .destination-hero-meta {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* =========================================
+   RWANDA HERO — MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .rwanda-hero {
+        min-height: 78vh;
+        background-position: center center;
+    }
+
+    .rwanda-hero .destination-detail-hero-content {
+        padding: 0 24px;
+    }
+
+    .rwanda-hero .destination-detail-hero-content > p {
+        max-width: 100%;
+    }
+
+    .rwanda-hero .destination-hero-meta {
+        justify-content: center;
+    }
+
+}
+
+/* =========================================
+   SEYCHELLES DESTINATION HERO
+========================================= */
+
+.seychelles-hero {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/19/Mahe_Island_from_Morne_Blanc.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+    min-height: 82vh;
+}
+
+
+/* =========================================
+   LUXURY DARK OVERLAY
+========================================= */
+
+.seychelles-hero .destination-detail-overlay {
+    background: linear-gradient(
+        90deg,
+        rgba(10, 10, 9, 0.72) 0%,
+        rgba(10, 10, 9, 0.46) 50%,
+        rgba(10, 10, 9, 0.30) 100%
+    );
+}
+
+
+/* =========================================
+   CENTER HERO CONTENT
+========================================= */
+
+.seychelles-hero .destination-detail-hero-content {
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+    padding: 0 40px;
+
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Eyebrow */
+
+.seychelles-hero .destination-detail-hero-content .eyebrow {
+    text-align: center;
+}
+
+
+/* Main title */
+
+.seychelles-hero .destination-detail-hero-content h1 {
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Description */
+
+.seychelles-hero .destination-detail-hero-content > p {
+    max-width: 720px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+
+/* Hero metadata */
+
+.seychelles-hero .destination-hero-meta {
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .seychelles-hero {
+        min-height: 78vh;
+        background-position: center center;
+    }
+
+    .seychelles-hero .destination-detail-hero-content {
+        padding: 0 24px;
+    }
+
+    .seychelles-hero .destination-detail-hero-content > p {
+        max-width: 100%;
+    }
+
+    .seychelles-hero .destination-hero-meta {
+        justify-content: center;
+    }
+
+}
+
+/* =========================================================
+   GHANA DESTINATION HERO
+========================================================= */
+
+.ghana-hero {
+    background-image: url("https://images.unsplash.com/photo-1504512485720-7d83a16ee930?auto=format&fit=crop&w=2000&q=90");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 82vh;
+}
+
+.ghana-hero .destination-detail-overlay {
+    background: linear-gradient(
+        90deg,
+        rgba(10, 10, 9, 0.74) 0%,
+        rgba(10, 10, 9, 0.48) 50%,
+        rgba(10, 10, 9, 0.30) 100%
+    );
+}
+
+.ghana-hero .destination-detail-hero-content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ghana-hero .destination-detail-hero-content .eyebrow {
+    text-align: center;
+}
+
+.ghana-hero .destination-detail-hero-content h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ghana-hero .destination-detail-hero-content > p {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ghana-hero .destination-hero-meta {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .ghana-hero {
+        min-height: 78vh;
+        background-position: center center;
+    }
+
+    .ghana-hero .destination-detail-hero-content {
+        padding: 0 24px;
+    }
+
+    .ghana-hero .destination-detail-hero-content > p {
+        max-width: 100%;
+    }
+
+    .ghana-hero .destination-hero-meta {
+        justify-content: center;
+    }
+
+}
+
+/* =========================================================
+   PACKAGE TIERS
+   ========================================================= */
+
+   .package-tiers {
+    padding: 110px 0;
+    background: #f8f6f1;
+}
+
+.package-tiers .packages-heading {
+    max-width: 720px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.package-tiers .packages-heading .section-label {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.package-tiers .packages-heading h2 {
+    margin-bottom: 20px;
+}
+
+.package-tiers .packages-heading h2 span {
+    display: block;
+}
+
+.package-tiers .packages-heading p {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+
+/* GRID */
+
+.package-tier-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: stretch;
+}
+
+
+/* CARD */
+
+.package-tier-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 42px 42px;
+    min-height: 410px;
+    background: #ffffff;
+    border: 1px solid rgba(20, 20, 18, 0.08);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.package-tier-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 45px rgba(20, 20, 18, 0.10);
+    border-color: rgba(20, 20, 18, 0.14);
+}
+
+
+/* NUMBER */
+
+.package-tier-number {
+    display: block;
+    margin-bottom: 34px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #b08d2c;
+    letter-spacing: 0.08em;
+}
+
+
+/* LABEL */
+
+.package-tier-label {
+    display: block;
+    margin-bottom: 14px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    line-height: 1.5;
+    color: #77736b;
+}
+
+
+/* TITLE */
+
+.package-tier-card h3 {
+    margin: 0 0 18px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(2rem, 3vw, 2.65rem);
+    font-weight: 500;
+    line-height: 0.98;
+    color: #171714;
+}
+
+.package-tier-card h3 span {
+    display: block;
+    color: #b08d2c;
+}
+
+
+/* DURATION */
+
+.package-tier-duration {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 24px;
+    padding: 8px 12px;
+    background: #f4f0e7;
+    color: #5f563f;
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    line-height: 1;
+}
+
+
+/* DESCRIPTION */
+
+.package-tier-card p {
+    margin: 0;
+    max-width: 330px;
+    color: #69675f;
+    font-size: 0.95rem;
+    line-height: 1.8;
+}
+
+
+/* LINK */
+
+.package-tier-card .package-card-link {
+    margin-top: auto;
+    padding-top: 32px;
+}
+
+
+/* FEATURED CARD */
+
+.package-tier-card.featured {
+    background: #171714;
+    border-color: #171714;
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(20, 20, 18, 0.16);
+}
+
+.package-tier-card.featured:hover {
+    transform: translateY(-16px);
+    box-shadow: 0 26px 55px rgba(20, 20, 18, 0.20);
+}
+
+.package-tier-card.featured .package-tier-number {
+    color: #d4af37;
+}
+
+.package-tier-card.featured .package-tier-label {
+    color: rgba(255, 255, 255, 0.58);
+}
+
+.package-tier-card.featured h3 {
+    color: #ffffff;
+}
+
+.package-tier-card.featured h3 span {
+    color: #d4af37;
+}
+
+.package-tier-card.featured .package-tier-duration {
+    background: rgba(212, 175, 55, 0.12);
+    color: #d4af37;
+}
+
+.package-tier-card.featured p {
+    color: rgba(255, 255, 255, 0.68);
+}
+
+.package-tier-card.featured .package-card-link {
+    color: #ffffff;
+}
+
+.package-tier-card.featured .package-card-link span {
+    color: #d4af37;
+}
+
+
+/* GOLD DETAIL */
+
+.package-tier-card:not(.featured)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 42px;
+    width: 42px;
+    height: 2px;
+    background: #b08d2c;
+}
+
+.package-tier-card.featured::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 42px;
+    width: 55px;
+    height: 2px;
+    background: #d4af37;
+}
+
+
+/* TABLET */
+
+@media (max-width: 950px) {
+
+    .package-tier-grid {
+        grid-template-columns: 1fr;
+        max-width: 680px;
+        margin: 0 auto;
+        gap: 20px;
+    }
+
+    .package-tier-card {
+        min-height: auto;
+    }
+
+    .package-tier-card.featured {
+        transform: none;
+    }
+
+    .package-tier-card.featured:hover {
+        transform: translateY(-6px);
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .package-tiers {
+        padding: 80px 0;
+    }
+
+    .package-tiers .packages-heading {
+        margin-bottom: 42px;
+        padding: 0 10px;
+    }
+
+    .package-tier-card {
+        padding: 38px 28px 32px;
+    }
+
+    .package-tier-number {
+        margin-bottom: 28px;
+    }
+
+    .package-tier-card h3 {
+        font-size: 2.25rem;
+    }
+
+    .package-tier-card p {
+        font-size: 0.92rem;
+        line-height: 1.75;
+    }
+
+    .package-tier-card:not(.featured)::before,
+    .package-tier-card.featured::before {
+        left: 28px;
+    }
+
+}
+
