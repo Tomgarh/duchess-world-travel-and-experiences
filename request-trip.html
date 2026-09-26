@@ -126,7 +126,6 @@
                 Contact
             </a>
 
-
             <a
                 href="request-trip.html"
                 class="mobile-nav-cta"
@@ -177,621 +176,484 @@
 
 
 
-<!-- REQUEST SECTION -->
+<!-- TRIP REQUEST -->
 <section class="request-section">
 
-    <div class="container request-layout">
+    <div class="container request-form-container">
 
 
-        <!-- SIDEBAR -->
-        <aside class="request-sidebar">
+        <!-- FORM INTRO -->
+        <div class="request-form-heading">
 
             <span class="section-label">
                 YOUR JOURNEY
             </span>
 
-
             <h2>
 
-                Start With
+                Every Great Journey
 
                 <span>
-                    A Conversation.
+                    Starts With A Conversation.
                 </span>
 
             </h2>
 
-
             <p>
 
-                Every great journey starts with understanding what
-                you actually want. Give us the details you have, and
-                we'll help you work through the rest.
+                Tell us where you want to go, what you're looking for,
+                and the kind of experience you have in mind. Let's get started.
 
             </p>
 
+        </div>
 
-            <div class="request-steps">
+                <!-- FIRST JOURNEY OFFER -->
+                <div class="request-welcome-offer">
 
-
-                <!-- STEP 01 -->
-                <div class="request-step">
-
-                    <span>
-                        01
+                    <span class="section-label">
+                        WELCOME TO DUCHESS
                     </span>
-
-                    <div>
-
-                        <strong>
-                            Inquire
-                        </strong>
-
-                        <p>
-                            Tell us about your travel plans.
-                        </p>
-
-                    </div>
-
+        
+                    <p>
+                        Planning your first journey with us?
+                        <strong>Ask about our current welcome offer.</strong>
+                    </p>
+        
                 </div>
 
 
-                <!-- STEP 02 -->
-                <div class="request-step">
 
-                    <span>
-                        02
-                    </span>
-
-                    <div>
-
-                        <strong>
-                            Consult
-                        </strong>
-
-                        <p>
-                            We'll discuss your needs and preferences.
-                        </p>
-
-                    </div>
-
-                </div>
+        <!-- TRIP REQUEST FORM -->
+        <form
+            id="tripRequestForm"
+            class="trip-request-form"
+        >
 
 
-                <!-- STEP 03 -->
-                <div class="request-step">
+            <!-- =========================================
+                 SECTION 01 — YOUR DETAILS
+            ========================================== -->
 
-                    <span>
-                        03
-                    </span>
-
-                    <div>
-
-                        <strong>
-                            Plan
-                        </strong>
-
-                        <p>
-                            We'll work toward a suitable itinerary.
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <!-- STEP 04 -->
-                <div class="request-step">
-
-                    <span>
-                        04
-                    </span>
-
-                    <div>
-
-                        <strong>
-                            Travel
-                        </strong>
-
-                        <p>
-                            Once everything is ready, enjoy your journey.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <!-- CONTACT BOX -->
-            <div class="request-contact-box">
+            <div class="form-section-title">
 
                 <span>
-                    NEED TO SPEAK TO SOMEONE?
+                    01
                 </span>
 
-                <p>
+                <div>
 
-                    Our travel team can help you understand where to
-                    begin.
+                    <strong>
+                        Your Details
+                    </strong>
 
-                </p>
+                    <small>
+                        Tell us who we're planning for.
+                    </small>
 
-                <a href="contact.html">
-
-                    Contact Our Team
-
-                    <span>
-                        →
-                    </span>
-
-                </a>
-
-            </div>
-
-        </aside>
-
-
-
-        <!-- FORM AREA -->
-        <div class="request-form-wrapper">
-
-
-            <!-- FORM HEADING -->
-            <div class="request-form-heading">
-
-                <span class="section-label">
-                    TRIP REQUEST
-                </span>
-
-                <h2>
-
-                    Let's Get
-
-                    <span>
-                        Started.
-                    </span>
-
-                </h2>
-
-                <p>
-
-                    Tell us about your plans and we'll use the information
-                    to understand the kind of journey you're looking for.
-
-                </p>
+                </div>
 
             </div>
 
 
 
-            <!-- TRIP REQUEST FORM -->
-            <form
-                id="tripRequestForm"
-                class="trip-request-form"
-            >
+            <!-- FULL NAME / EMAIL -->
+            <div class="form-row">
 
 
-                <!-- =========================================
-                     SECTION 01 — YOUR DETAILS
-                ========================================== -->
+                <div class="form-group">
 
-                <div class="form-section-title">
+                    <label for="fullName">
 
-                    <span>
-                        01
-                    </span>
+                        Full Name
 
-                    <div>
+                        <span>
+                            *
+                        </span>
 
-                        <strong>
-                            Your Details
-                        </strong>
+                    </label>
 
-                        <small>
-                            Tell us who we're planning for.
-                        </small>
-
-                    </div>
+                    <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Your full name"
+                        autocomplete="name"
+                        required
+                    >
 
                 </div>
 
 
 
-                <!-- FULL NAME / EMAIL -->
-                <div class="form-row">
+                <div class="form-group">
 
+                    <label for="email">
 
-                    <div class="form-group">
+                        Email Address
 
-                        <label for="fullName">
+                        <span>
+                            *
+                        </span>
 
-                            Full Name
+                    </label>
 
-                            <span>
-                                *
-                            </span>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="you@example.com"
+                        autocomplete="email"
+                        required
+                    >
 
-                        </label>
+                </div>
 
-                        <input
-                            type="text"
-                            id="fullName"
-                            name="fullName"
-                            placeholder="Your full name"
-                            autocomplete="name"
-                            required
-                        >
-
-                    </div>
+            </div>
 
 
 
-                    <div class="form-group">
+            <!-- PHONE / TRAVELERS -->
+            <div class="form-row">
 
-                        <label for="email">
 
-                            Email Address
+                <div class="form-group">
 
-                            <span>
-                                *
-                            </span>
+                    <label for="phone">
 
-                        </label>
+                        Phone / WhatsApp
 
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="you@example.com"
-                            autocomplete="email"
-                            required
-                        >
+                        <span>
+                            *
+                        </span>
 
-                    </div>
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="+1 000 000 0000"
+                        autocomplete="tel"
+                        required
+                    >
 
                 </div>
 
 
 
-                <!-- PHONE / TRAVELERS -->
-                <div class="form-row">
+                <div class="form-group">
+
+                    <label for="travelers">
+
+                        Number of Travelers
+
+                        <span>
+                            *
+                        </span>
+
+                    </label>
+
+                    <select
+                        id="travelers"
+                        name="travelers"
+                        required
+                    >
+
+                        <option value="">
+                            Select number
+                        </option>
+
+                        <option value="1">
+                            1 Traveler
+                        </option>
+
+                        <option value="2">
+                            2 Travelers
+                        </option>
+
+                        <option value="3-5">
+                            3–5 Travelers
+                        </option>
+
+                        <option value="6-10">
+                            6–10 Travelers
+                        </option>
+
+                        <option value="10+">
+                            More than 10
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
 
 
-                    <div class="form-group">
 
-                        <label for="phone">
+            <!-- =========================================
+                 SECTION 02 — YOUR TRIP
+            ========================================== -->
 
-                            Phone / WhatsApp
+            <div class="form-section-title">
 
-                            <span>
-                                *
-                            </span>
+                <span>
+                    02
+                </span>
 
-                        </label>
+                <div>
 
-                        <input
-                            type="tel"
-                            id="phone"
-                            name="phone"
-                            placeholder="+234 800 000 0000"
-                            autocomplete="tel"
-                            required
-                        >
+                    <strong>
+                        Your Trip
+                    </strong>
 
-                    </div>
+                    <small>
+                        Tell us about the journey you're imagining.
+                    </small>
+
+                </div>
+
+            </div>
 
 
 
-                    <div class="form-group">
+            <!-- DESTINATION / JOURNEY -->
+            <div class="form-row">
 
-                        <label for="travelers">
 
-                            Number of Travelers
+                <div class="form-group">
 
-                            <span>
-                                *
-                            </span>
+                    <label for="destination">
 
-                        </label>
+                        Destination
 
-                        <select
-                            id="travelers"
-                            name="travelers"
-                            required
-                        >
+                        <span>
+                            *
+                        </span>
 
-                            <option value="">
-                                Select number
-                            </option>
+                    </label>
 
-                            <option value="1">
-                                1 Traveler
-                            </option>
+                    <select
+                        id="destination"
+                        name="destination"
+                        required
+                    >
 
-                            <option value="2">
-                                2 Travelers
-                            </option>
+                        <option value="">
+                            Where would you like to go?
+                        </option>
 
-                            <option value="3-5">
-                                3–5 Travelers
-                            </option>
+                        <option value="Kenya">
+                            Kenya
+                        </option>
 
-                            <option value="6-10">
-                                6–10 Travelers
-                            </option>
+                        <option value="Tanzania + Zanzibar">
+                            Tanzania + Zanzibar
+                        </option>
 
-                            <option value="10+">
-                                More than 10
-                            </option>
+                        <option value="South Africa">
+                            South Africa
+                        </option>
 
-                        </select>
+                        <option value="Morocco">
+                            Morocco
+                        </option>
 
-                    </div>
+                        <option value="Egypt">
+                            Egypt
+                        </option>
+
+                        <option value="Rwanda">
+                            Rwanda
+                        </option>
+
+                        <option value="Seychelles">
+                            Seychelles
+                        </option>
+
+                        <option value="Ghana">
+                            Ghana
+                        </option>
+
+                        <option value="Somewhere else">
+                            Somewhere else
+                        </option>
+
+                        <option value="Not sure">
+                            I'm not sure yet
+                        </option>
+
+                    </select>
 
                 </div>
 
 
 
-                <!-- =========================================
-                     SECTION 02 — YOUR TRIP
-                ========================================== -->
+                <div class="form-group">
 
-                <div class="form-section-title">
+                    <label for="journeyType">
 
-                    <span>
-                        02
-                    </span>
+                        Duchess Experience
 
-                    <div>
+                        <span>
+                            *
+                        </span>
 
-                        <strong>
-                            Your Trip
-                        </strong>
+                    </label>
 
-                        <small>
-                            Tell us about the journey you're imagining.
-                        </small>
+                    <select
+                        id="journeyType"
+                        name="journeyType"
+                        required
+                    >
 
-                    </div>
+                        <option value="">
+                            Select an experience
+                        </option>
+
+                        <option value="Weekend Escape">
+                            Weekend Escape — 4 Days / 3 Nights
+                        </option>
+
+                        <option value="Signature Journey">
+                            Signature Journey — 5 Days / 4 Nights
+                        </option>
+
+                        <option value="Luxury Journey">
+                            Luxury Journey — 8 Days / 7 Nights
+                        </option>
+
+                        <option value="Custom Trip">
+                            Custom Trip
+                        </option>
+
+                        <option value="Not sure">
+                            I'm not sure yet
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- TRIP TYPE / DEPARTURE -->
+            <div class="form-row">
+
+
+                <div class="form-group">
+
+                    <label for="tripType">
+
+                        Trip Type
+
+                        <span>
+                            *
+                        </span>
+
+                    </label>
+
+                    <select
+                        id="tripType"
+                        name="tripType"
+                        required
+                    >
+
+                        <option value="">
+                            Select trip type
+                        </option>
+
+                        <option value="Holiday / Leisure">
+                            Holiday / Leisure
+                        </option>
+
+                        <option value="Family Trip">
+                            Family Trip
+                        </option>
+
+                        <option value="Group Trip">
+                            Group Trip
+                        </option>
+
+                        <option value="Honeymoon / Couple Trip">
+                            Honeymoon / Couple Trip
+                        </option>
+
+                        <option value="Solo Travel">
+                            Solo Travel
+                        </option>
+
+                        <option value="Business Travel">
+                            Business Travel
+                        </option>
+
+                        <option value="Other">
+                            Other
+                        </option>
+
+                    </select>
 
                 </div>
 
 
 
-                <!-- DESTINATION / JOURNEY -->
-                <div class="form-row">
+                <div class="form-group">
 
+                    <label for="departureDate">
 
-                    <div class="form-group">
+                        Preferred Departure Date
 
-                        <label for="destination">
+                    </label>
 
-                            Destination
+                    <input
+                        type="date"
+                        id="departureDate"
+                        name="departureDate"
+                    >
 
-                            <span>
-                                *
-                            </span>
+                </div>
 
-                        </label>
-
-                        <select
-                            id="destination"
-                            name="destination"
-                            required
-                        >
-
-                            <option value="">
-                                Where would you like to go?
-                            </option>
-
-                            <option value="Kenya">
-                                Kenya
-                            </option>
-
-                            <option value="Tanzania + Zanzibar">
-                                Tanzania + Zanzibar
-                            </option>
-
-                            <option value="South Africa">
-                                South Africa
-                            </option>
-
-                            <option value="Morocco">
-                                Morocco
-                            </option>
-
-                            <option value="Egypt">
-                                Egypt
-                            </option>
-
-                            <option value="Rwanda">
-                                Rwanda
-                            </option>
-
-                            <option value="Seychelles">
-                                Seychelles
-                            </option>
-
-                            <option value="Ghana">
-                                Ghana
-                            </option>
-
-                            <option value="Somewhere else">
-                                Somewhere else
-                            </option>
-
-                            <option value="Not sure">
-                                I'm not sure yet
-                            </option>
-
-                        </select>
-
-                    </div>
+            </div>
 
 
 
-                    <div class="form-group">
+            <!-- RETURN DATE / BUDGET -->
+            <div class="form-row">
 
-                        <label for="journeyType">
 
-                            Duchess Experience
+                <div class="form-group">
 
-                            <span>
-                                *
-                            </span>
+                    <label for="returnDate">
 
-                        </label>
+                        Preferred Return Date
 
-                        <select
-                            id="journeyType"
-                            name="journeyType"
-                            required
-                        >
+                    </label>
 
-                            <option value="">
-                                Select an experience
-                            </option>
-
-                            <option value="Weekend Escape">
-                                Weekend Escape — 4 Days / 3 Nights
-                            </option>
-
-                            <option value="Signature Journey">
-                                Signature Journey — 5 Days / 4 Nights
-                            </option>
-
-                            <option value="Luxury Journey">
-                                Luxury Journey — 8 Days / 7 Nights
-                            </option>
-
-                            <option value="Custom Trip">
-                                Custom Trip
-                            </option>
-
-                            <option value="Not sure">
-                                I'm not sure yet
-                            </option>
-
-                        </select>
-
-                    </div>
+                    <input
+                        type="date"
+                        id="returnDate"
+                        name="returnDate"
+                    >
 
                 </div>
 
 
 
-                <!-- TRIP TYPE / DATES -->
-                <div class="form-row">
+                <div class="form-group">
 
+                    <label for="budget">
 
-                    <div class="form-group">
+                        Approximate Budget
 
-                        <label for="tripType">
+                    </label>
 
-                            Trip Type
-
-                            <span>
-                                *
-                            </span>
-
-                        </label>
-
-                        <select
-                            id="tripType"
-                            name="tripType"
-                            required
-                        >
-
-                            <option value="">
-                                Select trip type
-                            </option>
-
-                            <option value="Holiday / Leisure">
-                                Holiday / Leisure
-                            </option>
-
-                            <option value="Family Trip">
-                                Family Trip
-                            </option>
-
-                            <option value="Group Trip">
-                                Group Trip
-                            </option>
-
-                            <option value="Honeymoon / Couple Trip">
-                                Honeymoon / Couple Trip
-                            </option>
-
-                            <option value="Business Travel">
-                                Business Travel
-                            </option>
-
-                            <option value="Other">
-                                Other
-                            </option>
-
-                        </select>
-
-                    </div>
-
-
-
-                    <div class="form-group">
-
-                        <label for="departureDate">
-
-                            Preferred Departure Date
-
-                        </label>
-
-                        <input
-                            type="date"
-                            id="departureDate"
-                            name="departureDate"
-                        >
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- RETURN DATE / BUDGET -->
-                <div class="form-row">
-
-
-                    <div class="form-group">
-
-                        <label for="returnDate">
-
-                            Preferred Return Date
-
-                        </label>
-
-                        <input
-                            type="date"
-                            id="returnDate"
-                            name="returnDate"
-                        >
-
-                    </div>
-
-
-
-                    <div class="form-group">
-
-                        <label for="budget">
-
-                            Approximate Budget
-
-                        </label>
-
-                        <select
-                            id="budget"
-                            name="budget"
-                        >
+                    <select
+                        id="budget"
+                        name="budget"
+                    >
 
                         <option value="" selected disabled>
                             Select your approximate budget
@@ -813,247 +675,391 @@
                             $5,000+
                         </option>
 
-                            <option value="Not sure">
-                                I'm not sure yet
-                            </option>
-
-                        </select>
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- =========================================
-                     SECTION 03 — PREFERENCES
-                ========================================== -->
-
-                <div class="form-section-title">
-
-                    <span>
-                        03
-                    </span>
-
-                    <div>
-
-                        <strong>
-                            Your Preferences
-                        </strong>
-
-                        <small>
-                            Help us understand what matters to you.
-                        </small>
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- PREFERENCES -->
-                <div class="form-group">
-
-                    <label for="preferences">
-
-                        What would you like from your trip?
-
-                    </label>
-
-                    <textarea
-                        id="preferences"
-                        name="preferences"
-                        rows="6"
-                        placeholder="Tell us about the kind of experience you're looking for, places you'd like to visit, activities, accommodation preferences, or anything else you'd like us to know."
-                    ></textarea>
-
-                </div>
-
-
-
-                <!-- HOW FOUND -->
-                <div class="form-group">
-
-                    <label for="howFound">
-
-                        How did you hear about us?
-
-                    </label>
-
-                    <select
-                        id="howFound"
-                        name="howFound"
-                    >
-
-                        <option value="">
-                            Select an option
-                        </option>
-
-                        <option value="Instagram">
-                            Instagram
-                        </option>
-
-                        <option value="Facebook">
-                            Facebook
-                        </option>
-
-                        <option value="WhatsApp">
-                            WhatsApp
-                        </option>
-
-                        <option value="Friend / Referral">
-                            Friend / Referral
-                        </option>
-
-                        <option value="Google / Search">
-                            Google / Search
-                        </option>
-
-                        <option value="Other">
-                            Other
+                        <option value="Not sure">
+                            I'm not sure yet
                         </option>
 
                     </select>
 
                 </div>
 
-
-
-                <!-- =========================================
-                     SUBMIT
-                ========================================== -->
-
-                <div class="form-submit-area">
-
-                    <p>
-
-                        Submitting this request does not confirm a booking.
-                        A Duchess travel consultant will review your request
-                        and contact you to discuss your journey.
-
-                    </p>
-
-
-                    <button
-                        type="submit"
-                        class="btn btn-primary form-submit"
-                    >
-
-                        Send My Trip Request
-
-                        <span>
-                            →
-                        </span>
-
-                    </button>
-
-                </div>
-
-            </form>
+            </div>
 
 
 
             <!-- =========================================
-                 SUCCESS MESSAGE
+                 SECTION 03 — PREFERENCES
             ========================================== -->
 
-            <div
-                id="tripRequestSuccess"
-                class="trip-request-success"
-                hidden
-            >
+            <div class="form-section-title">
 
-
-                <div class="success-icon">
-                    ✓
-                </div>
-
-
-                <span class="section-label">
-                    REQUEST RECEIVED
+                <span>
+                    03
                 </span>
 
+                <div>
 
-                <h2>
+                    <strong>
+                        Your Preferences
+                    </strong>
 
-                    Your Journey
+                    <small>
+                        Help us understand what matters to you.
+                    </small>
 
-                    <span>
-                        Starts Here.
-                    </span>
+                </div>
 
-                </h2>
+            </div>
 
+
+
+            <!-- PREFERENCES -->
+            <div class="form-group">
+
+                <label for="preferences">
+
+                    What would you like from your trip?
+
+                </label>
+
+                <textarea
+                    id="preferences"
+                    name="preferences"
+                    rows="6"
+                    placeholder="Tell us about the kind of experience you're looking for, places you'd like to visit, activities, accommodation preferences, or anything else you'd like us to know."
+                ></textarea>
+
+            </div>
+
+
+
+            <!-- HOW FOUND -->
+            <div class="form-group">
+
+                <label for="howFound">
+
+                    How did you hear about us?
+
+                </label>
+
+                <select
+                    id="howFound"
+                    name="howFound"
+                >
+
+                    <option value="">
+                        Select an option
+                    </option>
+
+                    <option value="Instagram">
+                        Instagram
+                    </option>
+
+                    <option value="Facebook">
+                        Facebook
+                    </option>
+
+                    <option value="WhatsApp">
+                        WhatsApp
+                    </option>
+
+                    <option value="Friend / Referral">
+                        Friend / Referral
+                    </option>
+
+                    <option value="Google / Search">
+                        Google / Search
+                    </option>
+
+                    <option value="Other">
+                        Other
+                    </option>
+
+                </select>
+
+            </div>
+
+
+
+            <!-- SUBMIT -->
+            <div class="form-submit-area">
 
                 <p>
 
-                    Thank you for sharing your travel plans with us.
-                    Your request has been received and our team will
-                    review the details before getting in touch with you.
+                    Submitting this request does not confirm a booking.
+                    A Duchess travel consultant will review your request
+                    and contact you to discuss your journey.
 
                 </p>
 
 
-
-                <div class="success-next-steps">
-
-
-                    <div>
-
-                        <strong>
-                            01
-                        </strong>
-
-                        <span>
-                            Inquiry received
-                        </span>
-
-                    </div>
-
-
-                    <div>
-
-                        <strong>
-                            02
-                        </strong>
-
-                        <span>
-                            Travel consultation
-                        </span>
-
-                    </div>
-
-
-                    <div>
-
-                        <strong>
-                            03
-                        </strong>
-
-                        <span>
-                            Trip planning
-                        </span>
-
-                    </div>
-
-                </div>
-
-
-
-                <a
-                    href="index.html"
-                    class="btn btn-outline"
+                <button
+                    type="submit"
+                    class="btn btn-primary form-submit"
                 >
 
-                    Return Home
+                    Send My Trip Request
 
                     <span>
                         →
                     </span>
 
-                </a>
+                </button>
 
             </div>
+
+        </form>
+
+
+
+        <!-- =========================================
+             SUCCESS MESSAGE
+        ========================================== -->
+
+        <div
+            id="tripRequestSuccess"
+            class="trip-request-success"
+            hidden
+        >
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <span class="section-label">
+                REQUEST RECEIVED
+            </span>
+
+            <h2>
+
+                Your Journey
+
+                <span>
+                    Starts Here.
+                </span>
+
+            </h2>
+
+            <p>
+                Thank you for sharing your travel plans with us. We’re excited to
+                help bring your journey to life. Your request has been received,
+                and our team will review the details and get in touch with you shortly.
+            </p>
+
+
+            <div class="success-next-steps">
+
+                <div>
+
+                    <strong>
+                        01
+                    </strong>
+
+                    <span>
+                        Inquiry received
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        02
+                    </strong>
+
+                    <span>
+                        Travel consultation
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        03
+                    </strong>
+
+                    <span>
+                        Trip planning
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <a
+                href="index.html"
+                class="btn btn-outline"
+            >
+
+                Return Home
+
+                <span>
+                    →
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- HOW IT WORKS -->
+<section class="request-process-section">
+
+    <div class="container">
+
+
+        <div class="request-process-heading">
+
+            <span class="section-label">
+                HOW IT WORKS
+            </span>
+
+            <h2>
+
+                From Your First Inquiry
+
+                <span>
+                    To Your Journey.
+                </span>
+
+            </h2>
+
+            <p>
+
+                We keep the planning process simple, personal, and
+                focused on creating a trip that works for you.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="request-steps">
+
+
+            <!-- INQUIRE -->
+            <div class="request-step">
+
+                <div>
+
+                    <strong>
+                        Inquire
+                    </strong>
+
+                    <p>
+                        Tell us about your travel plans and what you're looking for.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CONSULT -->
+            <div class="request-step">
+
+                <div>
+
+                    <strong>
+                        Consult
+                    </strong>
+
+                    <p>
+                        We'll connect with you to understand your needs and preferences.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- PLAN -->
+            <div class="request-step">
+
+                <div>
+
+                    <strong>
+                        Plan
+                    </strong>
+
+                    <p>
+                        We'll work with you toward a suitable itinerary and travel experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- TRAVEL -->
+            <div class="request-step">
+
+                <div>
+
+                    <strong>
+                        Travel
+                    </strong>
+
+                    <p>
+                        Once everything is ready, it's time to enjoy your journey.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- CONTACT CTA -->
+<section class="request-contact-section">
+
+    <div class="container">
+
+        <div class="request-contact-box">
+
+            <span>
+                NEED TO SPEAK TO SOMEONE?
+            </span>
+
+            <h2>
+                Not Sure Where To Begin?
+            </h2>
+
+            <p>
+
+                Our travel team can help you understand your options
+                and decide on the right place to start.
+
+            </p>
+
+            <a href="contact.html">
+
+                Contact Our Team
+
+                <span>
+                    →
+                </span>
+
+            </a>
 
         </div>
 
