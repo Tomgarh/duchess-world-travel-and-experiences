@@ -9528,41 +9528,7 @@ h2 span {
 
 }
 
-.package-tiers > .container > span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    margin: 0 auto 28px;
-
-    font-size: 1.25rem;
-    font-weight: 800;
-    letter-spacing: 0.14em;
-    line-height: 1.2;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: var(--gold);
-}
-
-.package-tiers > .container > span::before {
-    content: "";
-    width: 52px;
-    height: 3px;
-    flex-shrink: 0;
-    background: var(--gold);
-    border-radius: 999px;
-}
-
-.package-tiers > .container > span::after {
-    content: "";
-    width: 9px;
-    height: 9px;
-    flex-shrink: 0;
-    border: 2px solid var(--gold);
-    transform: rotate(45deg);
-}
-
+/* PACKAGE INTRO */
 .package-tiers .packages-heading {
     text-align: center;
     max-width: 1200px;
@@ -9610,20 +9576,30 @@ h2 span {
     color: var(--gold);
 }
 
+/* ACTUAL DASH — LEFT */
 .package-tiers .packages-heading > span::before {
-    content: "";
-    width: 45px;
-    height: 2px;
-    background: var(--gold);
-    border-radius: 999px;
+    content: "—";
+    width: auto;
+    height: auto;
+    background: none;
+    border: none;
+    transform: none;
+
+    font-size: 1.2em;
+    font-weight: 400;
 }
 
+/* ACTUAL DASH — RIGHT */
 .package-tiers .packages-heading > span::after {
-    content: "";
-    width: 8px;
-    height: 8px;
-    border: 2px solid var(--gold);
-    transform: rotate(45deg);
+    content: "—";
+    width: auto;
+    height: auto;
+    background: none;
+    border: none;
+    transform: none;
+
+    font-size: 1.2em;
+    font-weight: 400;
 }
 
 /* DESCRIPTION */
@@ -9659,15 +9635,12 @@ h2 span {
     .package-tiers .packages-heading > span {
         font-size: 0.78rem;
         letter-spacing: 0.1em;
+        gap: 10px;
     }
 
-    .package-tiers .packages-heading > span::before {
-        width: 28px;
-    }
-
+    .package-tiers .packages-heading > span::before,
     .package-tiers .packages-heading > span::after {
-        width: 6px;
-        height: 6px;
+        font-size: 1em;
     }
 
     .package-tiers .packages-heading p {
@@ -9675,5 +9648,4 @@ h2 span {
         font-size: 0.95rem !important;
         line-height: 1.7;
     }
-
 }
