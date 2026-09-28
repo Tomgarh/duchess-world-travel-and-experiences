@@ -446,13 +446,18 @@ const ecowasEntry =
 
 const africanDestinationGuidance = {
 
+
+    /* =====================================================
+       KENYA
+    ===================================================== */
+
     kenya: {
 
         entry:
             "Kenya applies nationality-specific entry rules. Some African passport holders are exempt from the eTA requirement while other nationalities may need an approved eTA or another applicable entry permission.",
 
         passport:
-            "Carry a passport meeting Kenya's current validity and blank-page requirements. The exact requirement should be checked for the passport nationality.",
+            "Carry a passport meeting Kenya's current validity and blank-page requirements. The current general passport standard for Kenya's eTA process is at least 6 months' validity after planned arrival and at least one blank page.",
 
         documents:
             "Keep accommodation details, arrival and departure itinerary, return or onward travel information and other supporting documents available.",
@@ -469,28 +474,36 @@ const africanDestinationGuidance = {
     },
 
 
+    /* =====================================================
+       TANZANIA
+    ===================================================== */
+
     tanzania: {
 
         entry:
-            "Tanzania applies nationality-specific visa and entry rules. Eligible travellers can use Tanzania's official online visa system.",
+            "Tanzania applies nationality-specific visa and entry rules. Citizens of countries on Tanzania's visa-exempt list do not require a visa for qualifying visits.",
 
         passport:
-            "Carry a passport that meets Tanzania's current validity requirements and has an available visa page where applicable.",
+            "Carry a valid passport or accepted travel document with at least 6 months' validity. Additional travel-document requirements may apply depending on nationality and travel circumstances.",
 
         documents:
-            "Keep accommodation information, itinerary and return or onward travel details available.",
+            "Keep accommodation information, itinerary and return or onward travel details available. Supporting documents may be requested by immigration officials.",
 
         health:
-            "Yellow Fever documentation may apply depending on the traveller's route and previous travel history.",
+            "Yellow Fever documentation may apply depending on the traveller's route and previous travel history. Travellers arriving from Yellow Fever risk countries, or after qualifying transit through such countries, may need a valid vaccination certificate.",
 
         financial:
             "Keep accommodation, onward or return travel and sufficient-funds evidence available if requested.",
 
         important:
-            "Tanzania's visa rules vary by nationality. Nigerian nationals were removed from the referred-visa category on September 25, 2026, but Nigerian travellers should still obtain the appropriate current entry permission before travel."
+            "For Zanzibar, foreign visitors must obtain the mandatory Zanzibar Inbound Travel Insurance. From 1 October 2026, foreign visitors entering Mainland Tanzania will also be required to obtain designated inbound travel insurance. The published premium is US$44 per visitor for coverage of up to 92 days."
 
     },
 
+
+    /* =====================================================
+       SOUTH AFRICA
+    ===================================================== */
 
     "south-africa": {
 
@@ -504,16 +517,20 @@ const africanDestinationGuidance = {
             "Depending on nationality, travellers may need accommodation details, itinerary, financial evidence, return or onward travel and other supporting documents.",
 
         health:
-            "Yellow Fever documentation may apply depending on countries visited before entering South Africa.",
+            "Yellow Fever documentation may apply depending on countries visited or transited before entering South Africa.",
 
         financial:
             "Travellers may be asked to demonstrate sufficient funds and provide accommodation and return or onward travel information.",
 
         important:
-            "Visa requirements are nationality-specific. Verify the applicable rule before booking non-refundable travel arrangements."
+            "From 1 July 2026, travellers entering or leaving South Africa generally need to complete the South African Traveller Declaration through the SARS Traveller Management System, subject to limited exceptions. Visa and entry requirements remain nationality-specific."
 
     },
 
+
+    /* =====================================================
+       MOROCCO
+    ===================================================== */
 
     morocco: {
 
@@ -538,6 +555,10 @@ const africanDestinationGuidance = {
     },
 
 
+    /* =====================================================
+       EGYPT
+    ===================================================== */
+
     egypt: {
 
         entry:
@@ -561,13 +582,17 @@ const africanDestinationGuidance = {
     },
 
 
+    /* =====================================================
+       RWANDA
+    ===================================================== */
+
     rwanda: {
 
         entry:
-            "Rwanda allows nationals of all countries to obtain a visa on arrival, while special visa-waiver arrangements apply to qualifying African and other nationalities.",
+            "Rwanda allows citizens of all countries to obtain a visa on arrival. Citizens of African Union member states receive a visa-fee exemption for qualifying 30-day visits, while EAC citizens receive special entry treatment for stays of up to six months.",
 
         passport:
-            "Rwanda requires a genuine accepted travel document generally valid for at least 6 months.",
+            "Rwanda generally requires a genuine accepted travel document valid for at least 6 months.",
 
         documents:
             "Keep accommodation details, return or onward travel information and other supporting documents available.",
@@ -579,10 +604,14 @@ const africanDestinationGuidance = {
             "Be prepared to demonstrate accommodation and sufficient funds if requested.",
 
         important:
-            "Rwanda has special visa-waiver arrangements for African Union citizens and specific countries. The exact stay period can depend on nationality."
+            "Rwanda has different visa-waiver and stay arrangements depending on nationality. Confirm the exact rule applicable to the passport before travel."
 
     },
 
+
+    /* =====================================================
+       SEYCHELLES
+    ===================================================== */
 
     seychelles: {
 
@@ -607,6 +636,10 @@ const africanDestinationGuidance = {
     },
 
 
+    /* =====================================================
+       GHANA
+    ===================================================== */
+
     ghana: {
 
         entry:
@@ -629,6 +662,10 @@ const africanDestinationGuidance = {
 
     },
 
+
+    /* =====================================================
+       CABO VERDE
+    ===================================================== */
 
     "cape-verde": {
 
@@ -662,172 +699,278 @@ const africanDestinationGuidance = {
 const ecowasDestinationData = {
 
     nigeria: {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep identification, accommodation and return or onward travel information available.",
+
         health:
             "Health and vaccination requirements depend on route and travel history.",
+
         financial:
             "Keep evidence of accommodation and sufficient funds available if requested.",
+
         important:
             "ECOWAS free movement does not remove applicable border, immigration and health procedures."
+
     },
+
 
     liberia: {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep valid identification, accommodation and onward or return travel information available.",
+
         health:
             "Health requirements depend on route and recent travel history.",
+
         financial:
             "Keep evidence of accommodation and sufficient funds available if requested.",
+
         important:
             "Confirm current border and health requirements before departure."
+
     },
+
 
     ghana: {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep identification, accommodation and onward or return travel information available.",
+
         health:
             "Yellow Fever documentation may apply depending on the route and travel history.",
+
         financial:
             "Keep evidence of accommodation and sufficient funds available if requested.",
+
         important:
             "Regional visa-free travel does not remove applicable immigration and health requirements."
+
     },
+
 
     senegal: {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep accommodation and onward or return travel information available.",
+
         health:
             "Health requirements depend on route and recent travel history.",
+
         financial:
             "Keep evidence of accommodation and sufficient funds available if requested.",
+
         important:
             "Confirm the latest nationality-specific entry conditions before departure."
+
     },
+
 
     "sierra-leone": {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep identification, accommodation and onward or return travel information available.",
+
         health:
             "Health requirements depend on route and recent travel history.",
+
         financial:
             "Keep evidence of accommodation and sufficient funds available if requested.",
+
         important:
             "Regional free movement does not remove applicable border procedures."
+
     },
+
 
     gambia: {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep identification, accommodation and onward or return travel information available.",
+
         health:
             "Health requirements depend on route and recent travel history.",
+
         financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
+            "Keep evidence of sufficient funds available if requested.",
+
         important:
             "Confirm current entry conditions before departure."
+
     },
+
 
     guinea: {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep identification, accommodation and onward or return travel information available.",
+
         health:
             "Health requirements depend on route and recent travel history.",
+
         financial:
             "Keep evidence of sufficient means available if requested.",
+
         important:
             "Confirm current entry and health requirements before departure."
+
     },
+
 
     "guinea-bissau": {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep identification, accommodation and onward or return travel information available.",
+
         health:
             "Health requirements depend on route and recent travel history.",
+
         financial:
             "Keep evidence of sufficient means available if requested.",
+
         important:
             "Confirm the latest entry conditions before travelling."
+
     },
+
 
     "cote-divoire": {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep identification, accommodation and onward or return travel information available.",
+
         health:
-            "Health requirements depend on route and recent travel history.",
+            "Health requirements depend on route and travel history.",
+
         financial:
             "Keep evidence of accommodation and sufficient funds available if requested.",
+
         important:
             "Confirm current entry and health requirements before departure."
+
     },
+
 
     benin: {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep valid identification, accommodation and onward or return travel information available.",
+
         health:
             "Health requirements depend on route and recent travel history.",
+
         financial:
             "Keep evidence of sufficient funds available if requested.",
+
         important:
             "Check current border and health requirements before travelling."
+
     },
+
 
     togo: {
-        entry: ecowasEntry,
+
+        entry:
+            ecowasEntry,
+
         passport:
             "Carry a valid passport or accepted ECOWAS travel document.",
+
         documents:
             "Keep valid identification, accommodation and onward or return travel information available.",
+
         health:
             "Health requirements depend on route and recent travel history.",
+
         financial:
             "Keep evidence of sufficient funds available if requested.",
+
         important:
             "Confirm the latest entry conditions before departure."
+
     },
 
+
     "cape-verde": {
+
         entry:
-            "ECOWAS nationals may be visa-exempt for qualifying stays in Cabo Verde according to Cabo Verde's current official visa-exemption list. EASE pre-registration is still required.",
+            "Cabo Verde has nationality-specific visa exemptions. Eligible ECOWAS nationals may be visa-exempt for qualifying stays, but the exact maximum stay depends on nationality. EASE pre-registration is still required.",
+
         passport:
             "Passport should be valid for at least 6 months from entry.",
+
         documents:
             "Complete EASE pre-registration before travel and keep accommodation and return or onward travel information available.",
+
         health:
             "Check current health and vaccination requirements according to the route.",
+
         financial:
             "Keep evidence of accommodation and sufficient funds available if requested.",
+
         important:
-            "The exact maximum visa-free stay depends on nationality. Check Cabo Verde's current official list before departure."
+            "The exact visa exemption and maximum permitted stay must be checked against Cabo Verde's current nationality-specific list."
+
     }
 
 };
@@ -847,10 +990,10 @@ const africanDestinationOverrides = {
     "nigeria|kenya": {
 
         entry:
-            "Nigerian passport holders are currently listed among the African nationalities exempt from Kenya's eTA for qualifying stays of up to 60 days.",
+            "Nigerian passport holders are currently listed among African nationalities exempt from Kenya's eTA for qualifying stays of up to 60 days.",
 
         passport:
-            "Carry a passport valid for at least 6 months after the planned arrival date and with at least one blank page.",
+            "Carry a Nigerian passport valid for at least 6 months after the planned arrival date and with at least one blank page.",
 
         documents:
             "Keep your arrival and departure itinerary, accommodation booking and contact information available.",
@@ -862,7 +1005,7 @@ const africanDestinationOverrides = {
             "Keep accommodation and onward or return travel information available.",
 
         important:
-            "Kenya's nationality-specific eTA exemption should be checked again before departure because entry rules can change."
+            "Nigeria is currently in Kenya's 60-day eTA-exempt category. Confirm the current exemption and entry conditions before departure."
 
     },
 
@@ -874,10 +1017,10 @@ const africanDestinationOverrides = {
     "ghana|kenya": {
 
         entry:
-            "Ghanaian passport holders are currently listed among nationalities exempt from Kenya's eTA for qualifying stays.",
+            "Ghanaian passport holders are currently listed among nationalities exempt from Kenya's eTA for qualifying stays of up to 90 days.",
 
         passport:
-            "Carry a passport meeting Kenya's current validity requirements and with an available blank page.",
+            "Carry a Ghanaian passport meeting Kenya's current validity requirements and with at least one blank page.",
 
         documents:
             "Keep your itinerary, accommodation booking and contact information available.",
@@ -889,7 +1032,7 @@ const africanDestinationOverrides = {
             "Keep accommodation and onward or return travel information available.",
 
         important:
-            "Confirm Ghana's current Kenya entry status through Kenya's official eTA system before travel."
+            "Ghana is currently in Kenya's 90-day eTA-exempt category. Confirm the current entry conditions before travel."
 
     },
 
@@ -949,28 +1092,190 @@ const africanDestinationOverrides = {
 
 
     /* =====================================================
+       SOUTH AFRICA → KENYA
+    ====================================================== */
+
+    "south-africa-passport|kenya": {
+
+        entry:
+            "South African ordinary passport holders are exempt from Kenya's eTA for qualifying stays of up to 90 days.",
+
+        passport:
+            "Carry a valid South African passport with at least 6 months' validity after the planned arrival date and at least one blank page.",
+
+        documents:
+            "Keep your arrival and departure itinerary, accommodation details and other supporting travel information available if requested.",
+
+        health:
+            "A valid Yellow Fever vaccination certificate may be required if arriving from a country with a risk of Yellow Fever transmission or after relevant transit through such a country.",
+
+        financial:
+            "Keep evidence of sufficient funds and your accommodation and onward or return travel arrangements available if requested.",
+
+        important:
+            "South African ordinary passport holders do not need a Kenya eTA for qualifying stays of up to 90 days. Check Kenya's official eTA exemption list and current entry requirements before travel."
+
+    },
+
+
+    /* =====================================================
+       KENYA → TANZANIA
+    ====================================================== */
+
+    "kenya-passport|tanzania": {
+
+        entry:
+            "Kenyan citizens do not require a Tanzanian tourist visa for qualifying visits. Tanzania lists Kenya among countries whose nationals do not require a visa for entry.",
+
+        passport:
+            "Carry a valid Kenyan passport or another accepted EAC travel document for the intended journey. Check the accepted document requirements before travelling, especially for land-border travel.",
+
+        documents:
+            "Keep accommodation details, travel itinerary and return or onward travel information available. If travelling by road, carry the relevant vehicle and driver documentation.",
+
+        health:
+            "Tanzania's Ministry of Health lists Kenya among countries from which travellers require a valid Yellow Fever vaccination certificate for entry. Carry the original International Certificate of Vaccination or Prophylaxis (Yellow Card).",
+
+        financial:
+            "Keep sufficient funds for the duration of the stay and be prepared to provide supporting travel information if requested.",
+
+        important:
+            "Kenyan citizens are visa-exempt for qualifying entry to Tanzania. If travelling to Zanzibar, foreign visitors must obtain the mandatory Zanzibar Inbound Travel Insurance, currently published at US$44 per visitor for coverage of up to 92 days."
+
+    },
+
+
+    /* =====================================================
+       TANZANIA → KENYA
+    ====================================================== */
+
+    "tanzania-passport|kenya": {
+
+        entry:
+            "Tanzanian citizens are exempt from Kenya's Electronic Travel Authorisation (eTA). Tanzania is an East African Partner State, and Tanzanian citizens are exempt from the Kenya eTA for qualifying stays of up to 180 days.",
+
+        passport:
+            "Carry a valid Tanzanian passport or another accepted EAC travel document for the journey. If travelling with a passport, ensure it meets the applicable travel-document requirements.",
+
+        documents:
+            "Keep accommodation details, travel itinerary and return or onward travel information available if requested by immigration.",
+
+        health:
+            "Check Kenya's current health and vaccination requirements according to the route and recent travel history. Yellow Fever documentation may apply depending on the traveller's route.",
+
+        financial:
+            "Keep evidence of sufficient funds and your travel arrangements available if requested.",
+
+        important:
+            "Tanzanian citizens do not need a Kenya eTA for qualifying stays of up to 180 days. Final admission and permitted stay are determined by Kenyan immigration at the point of entry."
+
+    },
+
+
+    /* =====================================================
        NIGERIA → TANZANIA
     ====================================================== */
 
     "nigeria|tanzania": {
 
         entry:
-            "Nigerian nationals were removed from Tanzania's referred-visa category on September 25, 2026. Nigerian travellers should still obtain the appropriate current tourist visa or entry permission before travel.",
+            "Nigerian passport holders are not listed among Tanzania's visa-exempt nationalities. Nigerian travellers should obtain the appropriate Tanzanian visa or other applicable entry permission before travel.",
 
         passport:
-            "Carry a Nigerian passport meeting Tanzania's current passport-validity requirements.",
+            "Carry a Nigerian passport meeting Tanzania's current passport-validity requirements, including the applicable minimum validity and blank-page requirements.",
 
         documents:
-            "Keep accommodation, itinerary and return or onward travel details available.",
+            "Prepare accommodation details, itinerary, return or onward travel information and any supporting documents required for the applicable visa.",
 
         health:
-            "Yellow Fever documentation may apply depending on the route and recent travel history.",
+            "Tanzania's Ministry of Health lists Nigeria among countries from which travellers require a valid Yellow Fever vaccination certificate for entry.",
 
         financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
+            "Keep evidence of sufficient funds, accommodation and onward or return travel available if requested.",
 
         important:
-            "Check Tanzania's official immigration system before travel because visa requirements can change."
+            "Check Tanzania's official immigration system before travel for the current visa category, application procedure and entry requirements."
+
+    },
+
+
+    /* =====================================================
+       SOUTH AFRICA → TANZANIA
+    ====================================================== */
+
+    "south-africa-passport|tanzania": {
+
+        entry:
+            "South African passport holders are visa-exempt for entry into Tanzania. Qualifying visitor stays may be granted for up to 90 days.",
+
+        passport:
+            "Carry a valid South African passport or other accepted travel document with at least 6 months' validity.",
+
+        documents:
+            "Keep your return or onward ticket, accommodation details or host information and other supporting travel information available if requested by Tanzanian immigration officials.",
+
+        health:
+            "Yellow Fever vaccination certification is generally required only when arriving from a Yellow Fever risk country or after 12 hours or more of transit through a Yellow Fever risk country. Travellers arriving directly from South Africa generally do not fall under this requirement.",
+
+        financial:
+            "Keep evidence of sufficient funds for your intended stay and supporting accommodation and travel information available if requested.",
+
+        important:
+            "If entering Zanzibar, foreign visitors must obtain the mandatory Zanzibar Inbound Travel Insurance from the Zanzibar Insurance Corporation (ZIC), currently priced at US$44 per visitor for coverage of up to 92 days. From 1 October 2026, foreign visitors entering Mainland Tanzania will also be required to obtain designated inbound travel insurance through the National Insurance Corporation (NIC), with a published premium of US$44 per visitor for coverage of up to 92 days."
+
+    },
+
+
+    /* =====================================================
+       KENYA → SOUTH AFRICA
+    ====================================================== */
+
+    "kenya-passport|south-africa": {
+
+        entry:
+            "Kenyan ordinary passport holders may enter South Africa visa-free for up to 90 days per calendar year for qualifying visits.",
+
+        passport:
+            "Carry your valid Kenyan passport and ensure it has sufficient validity and blank pages for the journey. Confirm the latest South African passport-entry requirements before departure.",
+
+        documents:
+            "Keep your return or onward ticket, accommodation details or host information, and evidence of sufficient funds available in case they are requested by immigration officials or the airline.",
+
+        health:
+            "Kenya is listed by South Africa as a country from which travellers require a valid Yellow Fever vaccination certificate. Carry your International Certificate of Vaccination or Prophylaxis (Yellow Card).",
+
+        financial:
+            "Keep evidence of sufficient funds for your intended stay, together with accommodation and return or onward travel information, available if requested.",
+
+        important:
+            "The Kenyan visa exemption is limited to 90 days per calendar year. From 1 July 2026, travellers entering or leaving South Africa are generally required to submit the South African Traveller Declaration through SARS/SATMS, subject to limited exceptions. Complete it before travel and keep the confirmation available."
+
+    },
+
+
+    /* =====================================================
+       TANZANIA → SOUTH AFRICA
+    ====================================================== */
+
+    "tanzania-passport|south-africa": {
+
+        entry:
+            "Tanzanian ordinary passport holders may enter South Africa without a visa for qualifying visits of up to 90 days per year.",
+
+        passport:
+            "Carry a valid Tanzanian passport. South African government guidance for visitor travel uses a passport valid for at least 30 days beyond the intended stay and with at least two blank pages.",
+
+        documents:
+            "Keep your return or onward ticket, accommodation details or host information, and other supporting travel information available in case they are requested by immigration officials or the airline.",
+
+        health:
+            "A Yellow Fever vaccination certificate may be required depending on the countries visited or transited before entering South Africa. Check the current South African Department of Health requirements for your specific route.",
+
+        financial:
+            "Keep evidence of sufficient funds for your intended stay, together with accommodation and return or onward travel information, available if requested.",
+
+        important:
+            "Tanzanian ordinary passport holders are visa-exempt for up to 90 days per year for qualifying visits. From 1 July 2026, travellers entering or leaving South Africa are generally required to submit the South African Traveller Declaration through SARS/SATMS, subject to limited exceptions. The declaration should generally be completed no more than 24 hours before departure from the country or the final leg of the journey to South Africa."
 
     },
 
@@ -982,7 +1287,7 @@ const africanDestinationOverrides = {
     "nigeria|rwanda": {
 
         entry:
-            "Nigerian citizens are eligible for Rwanda's African Union visa-on-arrival fee waiver arrangement for a 30-day stay.",
+            "Nigerian citizens are eligible for Rwanda's African Union visa-fee waiver arrangement for qualifying stays of up to 30 days.",
 
         passport:
             "Carry a genuine accepted Nigerian passport or travel document valid for at least 6 months.",
@@ -997,7 +1302,7 @@ const africanDestinationOverrides = {
             "Be prepared to demonstrate sufficient funds and accommodation if requested.",
 
         important:
-            "Rwanda permits visa on arrival for all nationalities, while qualifying African nationals receive a fee waiver. Confirm the current stay conditions before departure."
+            "Rwanda permits visa on arrival for all nationalities, while qualifying African nationals receive a visa-fee waiver. Confirm the current stay conditions before departure."
 
     },
 
@@ -1036,7 +1341,7 @@ const africanDestinationOverrides = {
     "south-africa-passport|rwanda": {
 
         entry:
-            "South African citizens receive visa on arrival in Rwanda with the applicable African Union fee-waiver arrangement for a 30-day stay.",
+            "South African citizens receive visa on arrival in Rwanda with the applicable African Union visa-fee waiver arrangement for a 30-day stay.",
 
         passport:
             "Carry a passport or accepted travel document valid for at least 6 months.",
@@ -1192,7 +1497,7 @@ const africanDestinationOverrides = {
 
 
     /* =====================================================
-       GHANA → CAPE VERDE
+       GHANA → CABO VERDE
     ====================================================== */
 
     "ghana|cape-verde": {
@@ -1219,7 +1524,7 @@ const africanDestinationOverrides = {
 
 
     /* =====================================================
-       NIGERIA → CAPE VERDE
+       NIGERIA → CABO VERDE
     ====================================================== */
 
     "nigeria|cape-verde": {
@@ -1246,7 +1551,7 @@ const africanDestinationOverrides = {
 
 
     /* =====================================================
-       LIBERIA → CAPE VERDE
+       LIBERIA → CABO VERDE
     ====================================================== */
 
     "liberia|cape-verde": {
@@ -1273,7 +1578,7 @@ const africanDestinationOverrides = {
 
 
     /* =====================================================
-       SENEGAL → CAPE VERDE
+       SENEGAL → CABO VERDE
     ====================================================== */
 
     "senegal|cape-verde": {
@@ -1288,7 +1593,7 @@ const africanDestinationOverrides = {
             "Complete EASE pre-registration before travel and keep accommodation and return or onward travel information available.",
 
         health:
-            "Check current health and vaccination requirements according to the route.",
+            "Check current health requirements according to the route.",
 
         financial:
             "Keep evidence of accommodation and sufficient funds available if requested.",
@@ -1300,7 +1605,7 @@ const africanDestinationOverrides = {
 
 
     /* =====================================================
-       SIERRA LEONE → CAPE VERDE
+       SIERRA LEONE → CABO VERDE
     ====================================================== */
 
     "sierra-leone|cape-verde": {
@@ -1326,7 +1631,6 @@ const africanDestinationOverrides = {
     }
 
 };
-
 
 /* =========================================================
    GENERIC AFRICAN → AFRICAN RULE
@@ -1374,7 +1678,13 @@ function getAfricanDestinationResult(
 
         return {
             ...ecowasData,
-            verifiedPair: true
+
+            verifiedPair:
+                false,
+
+            important:
+                "ECOWAS citizens may benefit from regional free-movement arrangements, but this general result is not a nationality-specific verification. Confirm the current entry, travel-document and health requirements for this exact journey before departure."
+
         };
 
     }
@@ -1392,7 +1702,7 @@ function getAfricanDestinationResult(
         return {
 
             entry:
-                "Rwanda allows African nationals to obtain visa on arrival, with qualifying African Union citizens receiving a 30-day visa fee waiver. Some nationalities have longer specific visa-free arrangements.",
+                "Rwanda allows citizens of all countries to obtain a visa on arrival. Qualifying African Union citizens receive a visa-fee waiver for a 30-day stay, while EAC citizens receive special entry treatment for stays of up to six months.",
 
             passport:
                 "Carry a genuine accepted travel document valid for at least 6 months.",
@@ -1435,7 +1745,7 @@ function getAfricanDestinationResult(
                 "Carry a passport valid for at least 6 months from entry.",
 
             documents:
-                "EASE pre-registration is required before travel. Additional visa or TSA requirements may apply depending on nationality.",
+                "EASE pre-registration is required before travel. Additional visa or Airport Security Tax requirements may apply depending on nationality.",
 
             health:
                 "Check current health and vaccination requirements according to the route.",
@@ -1697,9 +2007,11 @@ function updateTravelRequirements() {
        DESTINATION DATA
     ----------------------------------------- */
 
-    let destinationData = null;
+    let destinationData =
+        null;
 
-    let result = null;
+    let result =
+        null;
 
 
     /* -----------------------------------------
