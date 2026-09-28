@@ -9562,3 +9562,118 @@ h2 span {
     border: 2px solid var(--gold);
     transform: rotate(45deg);
 }
+
+.package-tiers .packages-heading {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto 70px;
+}
+
+/* MAIN TITLE */
+.package-tiers .packages-heading h2 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 14px;
+
+    margin: 0 0 22px;
+
+    font-size: clamp(2.8rem, 6vw, 5.5rem);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.045em;
+
+    white-space: nowrap;
+
+    color: #111111;
+}
+
+.package-tiers .packages-heading h2 span {
+    color: var(--gold);
+}
+
+/* WELCOME TEXT */
+.package-tiers .packages-heading > span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+
+    margin-bottom: 20px;
+
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    color: var(--gold);
+}
+
+.package-tiers .packages-heading > span::before {
+    content: "";
+    width: 45px;
+    height: 2px;
+    background: var(--gold);
+    border-radius: 999px;
+}
+
+.package-tiers .packages-heading > span::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border: 2px solid var(--gold);
+    transform: rotate(45deg);
+}
+
+/* DESCRIPTION */
+.package-tiers .packages-heading p {
+    display: block !important;
+
+    width: 100%;
+    max-width: 720px;
+
+    margin: 0 auto !important;
+    padding: 0;
+
+    font-size: 1.1rem !important;
+    font-weight: 400;
+    line-height: 1.8;
+
+    text-align: center;
+
+    color: #555555 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+
+/* MOBILE */
+@media (max-width: 700px) {
+
+    .package-tiers .packages-heading h2 {
+        font-size: clamp(2.2rem, 10vw, 3.5rem);
+        gap: 8px;
+    }
+
+    .package-tiers .packages-heading > span {
+        font-size: 0.78rem;
+        letter-spacing: 0.1em;
+    }
+
+    .package-tiers .packages-heading > span::before {
+        width: 28px;
+    }
+
+    .package-tiers .packages-heading > span::after {
+        width: 6px;
+        height: 6px;
+    }
+
+    .package-tiers .packages-heading p {
+        max-width: 90%;
+        font-size: 0.95rem !important;
+        line-height: 1.7;
+    }
+
+}
