@@ -9527,3 +9527,38 @@ h2 span {
     }
 
 }
+
+.package-tiers > .container > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 0 auto 28px;
+
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: var(--gold);
+}
+
+.package-tiers > .container > span::before {
+    content: "";
+    width: 52px;
+    height: 3px;
+    flex-shrink: 0;
+    background: var(--gold);
+    border-radius: 999px;
+}
+
+.package-tiers > .container > span::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    flex-shrink: 0;
+    border: 2px solid var(--gold);
+    transform: rotate(45deg);
+}
