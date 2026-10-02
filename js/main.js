@@ -74,7 +74,6 @@ if (contactForm && contactSuccess) {
 
 /* =========================================================
    TRAVEL REQUIREMENTS CHECKER
-   PASSPORT → DESTINATION
 ========================================================= */
 
 const destinationSelect =
@@ -141,65 +140,28 @@ const importantGuidance =
 
 const destinationNames = {
 
-    nigeria:
-        "Nigeria",
+    nigeria: "Nigeria",
+    liberia: "Liberia",
+    ghana: "Ghana",
+    senegal: "Senegal",
+    "sierra-leone": "Sierra Leone",
+    gambia: "The Gambia",
+    guinea: "Guinea",
+    "guinea-bissau": "Guinea-Bissau",
+    "cote-divoire": "Côte d'Ivoire",
+    benin: "Benin",
+    togo: "Togo",
+    "cape-verde": "Cabo Verde",
 
-    liberia:
-        "Liberia",
+    kenya: "Kenya",
+    tanzania: "Tanzania + Zanzibar",
+    "south-africa": "South Africa",
+    morocco: "Morocco",
+    egypt: "Egypt",
+    rwanda: "Rwanda",
+    seychelles: "Seychelles",
 
-    ghana:
-        "Ghana",
-
-    senegal:
-        "Senegal",
-
-    "sierra-leone":
-        "Sierra Leone",
-
-    gambia:
-        "The Gambia",
-
-    guinea:
-        "Guinea",
-
-    "guinea-bissau":
-        "Guinea-Bissau",
-
-    "cote-divoire":
-        "Côte d'Ivoire",
-
-    benin:
-        "Benin",
-
-    togo:
-        "Togo",
-
-    "cape-verde":
-        "Cabo Verde",
-
-    kenya:
-        "Kenya",
-
-    tanzania:
-        "Tanzania + Zanzibar",
-
-    "south-africa":
-        "South Africa",
-
-    morocco:
-        "Morocco",
-
-    egypt:
-        "Egypt",
-
-    rwanda:
-        "Rwanda",
-
-    seychelles:
-        "Seychelles",
-
-    other:
-        "Other Destination"
+    other: "Other Destination"
 
 };
 
@@ -210,146 +172,60 @@ const destinationNames = {
 
 const passportNames = {
 
-    nigeria:
-        "Nigerian Passport",
+    nigeria: "Nigerian Passport",
+    ghana: "Ghanaian Passport",
+    liberia: "Liberian Passport",
+    senegal: "Senegalese Passport",
+    "sierra-leone": "Sierra Leonean Passport",
+    gambia: "Gambian Passport",
+    guinea: "Guinean Passport",
+    "guinea-bissau": "Guinea-Bissau Passport",
+    "cote-divoire": "Côte d'Ivoire Passport",
+    benin: "Beninese Passport",
+    togo: "Togolese Passport",
+    "cape-verde": "Cabo Verdean Passport",
 
-    ghana:
-        "Ghanaian Passport",
+    "south-africa-passport": "South African Passport",
+    "kenya-passport": "Kenyan Passport",
+    "tanzania-passport": "Tanzanian Passport",
+    "rwanda-passport": "Rwandan Passport",
+    "ethiopia-passport": "Ethiopian Passport",
+    "uganda-passport": "Ugandan Passport",
+    "morocco-passport": "Moroccan Passport",
 
-    liberia:
-        "Liberian Passport",
+    uk: "UK Passport",
+    france: "French Passport",
+    germany: "German Passport",
+    italy: "Italian Passport",
+    spain: "Spanish Passport",
+    netherlands: "Dutch Passport",
+    belgium: "Belgian Passport",
+    switzerland: "Swiss Passport",
+    austria: "Austrian Passport",
+    sweden: "Swedish Passport",
+    norway: "Norwegian Passport",
+    denmark: "Danish Passport",
+    finland: "Finnish Passport",
+    ireland: "Irish Passport",
+    portugal: "Portuguese Passport",
+    poland: "Polish Passport",
+    "czech-republic": "Czech Passport",
+    greece: "Greek Passport",
 
-    senegal:
-        "Senegalese Passport",
+    usa: "U.S. Passport",
+    canada: "Canadian Passport",
+    mexico: "Mexican Passport",
 
-    "sierra-leone":
-        "Sierra Leonean Passport",
+    china: "Chinese Passport",
+    japan: "Japanese Passport",
+    "south-korea": "South Korean Passport",
+    india: "Indian Passport",
+    singapore: "Singaporean Passport",
 
-    gambia:
-        "Gambian Passport",
+    australia: "Australian Passport",
+    "new-zealand": "New Zealand Passport",
 
-    guinea:
-        "Guinean Passport",
-
-    "guinea-bissau":
-        "Guinea-Bissau Passport",
-
-    "cote-divoire":
-        "Côte d'Ivoire Passport",
-
-    benin:
-        "Beninese Passport",
-
-    togo:
-        "Togolese Passport",
-
-    "cape-verde":
-        "Cabo Verdean Passport",
-
-    "south-africa-passport":
-        "South African Passport",
-
-    "kenya-passport":
-        "Kenyan Passport",
-
-    "tanzania-passport":
-        "Tanzanian Passport",
-
-    "rwanda-passport":
-        "Rwandan Passport",
-
-    "ethiopia-passport":
-        "Ethiopian Passport",
-
-    "uganda-passport":
-        "Ugandan Passport",
-
-    uk:
-        "UK Passport",
-
-    france:
-        "French Passport",
-
-    germany:
-        "German Passport",
-
-    italy:
-        "Italian Passport",
-
-    spain:
-        "Spanish Passport",
-
-    netherlands:
-        "Dutch Passport",
-
-    belgium:
-        "Belgian Passport",
-
-    switzerland:
-        "Swiss Passport",
-
-    austria:
-        "Austrian Passport",
-
-    sweden:
-        "Swedish Passport",
-
-    norway:
-        "Norwegian Passport",
-
-    denmark:
-        "Danish Passport",
-
-    finland:
-        "Finnish Passport",
-
-    ireland:
-        "Irish Passport",
-
-    portugal:
-        "Portuguese Passport",
-
-    poland:
-        "Polish Passport",
-
-    "czech-republic":
-        "Czech Passport",
-
-    greece:
-        "Greek Passport",
-
-    usa:
-        "U.S. Passport",
-
-    canada:
-        "Canadian Passport",
-
-    mexico:
-        "Mexican Passport",
-
-    china:
-        "Chinese Passport",
-
-    japan:
-        "Japanese Passport",
-
-    "south-korea":
-        "South Korean Passport",
-
-    india:
-        "Indian Passport",
-
-    singapore:
-        "Singaporean Passport",
-
-    australia:
-        "Australian Passport",
-
-    "new-zealand":
-        "New Zealand Passport",
-
-    other:
-        "Other Passport"
+    other: "Other Passport"
 
 };
 
@@ -385,7 +261,8 @@ const africanPassports = [
     "tanzania-passport",
     "rwanda-passport",
     "ethiopia-passport",
-    "uganda-passport"
+    "uganda-passport",
+    "morocco-passport"
 
 ];
 
@@ -441,15 +318,10 @@ const ecowasEntry =
 
 
 /* =========================================================
-   AFRICA → AFRICA GENERAL LOGIC
+   DESTINATION GUIDANCE
 ========================================================= */
 
-const africanDestinationGuidance = {
-
-
-    /* =====================================================
-       KENYA
-    ===================================================== */
+const destinationGuidance = {
 
     kenya: {
 
@@ -469,14 +341,10 @@ const africanDestinationGuidance = {
             "Travellers should be prepared to show accommodation, onward or return travel and other supporting information if requested.",
 
         important:
-            "Kenya's eTA system contains nationality-specific exemptions. Do not assume that the same rule applies to every African passport."
+            "Kenya's eTA system contains nationality-specific exemptions. Do not assume that the same rule applies to every passport."
 
     },
 
-
-    /* =====================================================
-       TANZANIA
-    ===================================================== */
 
     tanzania: {
 
@@ -484,31 +352,27 @@ const africanDestinationGuidance = {
             "Tanzania applies nationality-specific visa and entry rules. Citizens of countries on Tanzania's visa-exempt list do not require a visa for qualifying visits.",
 
         passport:
-            "Carry a valid passport or accepted travel document with at least 6 months' validity. Additional travel-document requirements may apply depending on nationality and travel circumstances.",
+            "Carry a valid passport or accepted travel document with at least 6 months' validity.",
 
         documents:
-            "Keep accommodation information, itinerary and return or onward travel details available. Supporting documents may be requested by immigration officials.",
+            "Keep accommodation information, itinerary and return or onward travel details available.",
 
         health:
-            "Yellow Fever documentation may apply depending on the traveller's route and previous travel history. Travellers arriving from Yellow Fever risk countries, or after qualifying transit through such countries, may need a valid vaccination certificate.",
+            "Yellow Fever documentation may apply depending on the traveller's route and previous travel history.",
 
         financial:
             "Keep accommodation, onward or return travel and sufficient-funds evidence available if requested.",
 
         important:
-            "For Zanzibar, foreign visitors must obtain the mandatory Zanzibar Inbound Travel Insurance. From 1 October 2026, foreign visitors entering Mainland Tanzania will also be required to obtain designated inbound travel insurance. The published premium is US$44 per visitor for coverage of up to 92 days."
+            "For Zanzibar, check the latest Zanzibar-specific travel insurance and entry requirements before departure."
 
     },
 
 
-    /* =====================================================
-       SOUTH AFRICA
-    ===================================================== */
-
     "south-africa": {
 
         entry:
-            "South Africa applies nationality-specific visitor entry rules. Some African passport holders may be visa-exempt while others require a visitor visa before travel.",
+            "South Africa applies nationality-specific visitor entry rules. Some passport holders may be visa-exempt while others require a visitor visa before travel.",
 
         passport:
             "Carry a valid passport or accepted travel document that satisfies South African immigration and airline requirements.",
@@ -523,19 +387,15 @@ const africanDestinationGuidance = {
             "Travellers may be asked to demonstrate sufficient funds and provide accommodation and return or onward travel information.",
 
         important:
-            "From 1 July 2026, travellers entering or leaving South Africa generally need to complete the South African Traveller Declaration through the SARS Traveller Management System, subject to limited exceptions. Visa and entry requirements remain nationality-specific."
+            "Check the latest South African immigration and border requirements before departure."
 
     },
 
 
-    /* =====================================================
-       MOROCCO
-    ===================================================== */
-
     morocco: {
 
         entry:
-            "Morocco's entry requirements depend on nationality, residence, passport type and travel circumstances. The official Accès Maroc system should be used to determine the applicable route.",
+            "Morocco's entry requirements depend on nationality, residence, passport type and travel circumstances. Use Morocco's official entry-eligibility system to determine the applicable route.",
 
         passport:
             "Carry a valid ordinary passport covering the intended trip. Additional passport requirements may apply depending on the visa route.",
@@ -550,14 +410,10 @@ const africanDestinationGuidance = {
             "Travellers may be expected to demonstrate sufficient funds, accommodation arrangements and onward or return travel.",
 
         important:
-            "Morocco's entry route can differ by nationality. Use the official eligibility checker before travelling."
+            "Morocco's entry route can differ by nationality. Verify the current requirement before travelling."
 
     },
 
-
-    /* =====================================================
-       EGYPT
-    ===================================================== */
 
     egypt: {
 
@@ -565,7 +421,7 @@ const africanDestinationGuidance = {
             "Egypt's entry requirements depend on nationality. Some nationalities may qualify for an e-Visa while others use a different visa or consular route.",
 
         passport:
-            "Travellers should generally carry a passport with sufficient validity for the intended trip.",
+            "Travellers should carry a passport with sufficient validity for the intended trip.",
 
         documents:
             "Depending on the applicable visa route, travellers may need accommodation information, itinerary, invitation documents or other supporting evidence.",
@@ -577,19 +433,15 @@ const africanDestinationGuidance = {
             "Keep accommodation, return or onward travel and sufficient-funds evidence available if requested.",
 
         important:
-            "Do not assume that every African passport has the same Egyptian visa route. Confirm nationality-specific requirements before travel."
+            "Do not assume that every passport has the same Egyptian visa route. Confirm nationality-specific requirements before travel."
 
     },
 
 
-    /* =====================================================
-       RWANDA
-    ===================================================== */
-
     rwanda: {
 
         entry:
-            "Rwanda allows citizens of all countries to obtain a visa on arrival. Citizens of African Union member states receive a visa-fee exemption for qualifying 30-day visits, while EAC citizens receive special entry treatment for stays of up to six months.",
+            "Rwanda allows citizens of all countries to obtain a visa on arrival. Citizens of countries with applicable African Union arrangements may receive a visa-fee exemption for qualifying short stays, while EAC citizens receive special entry treatment.",
 
         passport:
             "Rwanda generally requires a genuine accepted travel document valid for at least 6 months.",
@@ -604,14 +456,10 @@ const africanDestinationGuidance = {
             "Be prepared to demonstrate accommodation and sufficient funds if requested.",
 
         important:
-            "Rwanda has different visa-waiver and stay arrangements depending on nationality. Confirm the exact rule applicable to the passport before travel."
+            "Rwanda has different stay arrangements depending on nationality. Confirm the exact rule applicable to the passport before travel."
 
     },
 
-
-    /* =====================================================
-       SEYCHELLES
-    ===================================================== */
 
     seychelles: {
 
@@ -636,10 +484,6 @@ const africanDestinationGuidance = {
     },
 
 
-    /* =====================================================
-       GHANA
-    ===================================================== */
-
     ghana: {
 
         entry:
@@ -662,10 +506,6 @@ const africanDestinationGuidance = {
 
     },
 
-
-    /* =====================================================
-       CABO VERDE
-    ===================================================== */
 
     "cape-verde": {
 
@@ -693,12 +533,12 @@ const africanDestinationGuidance = {
 
 
 /* =========================================================
-   ECOWAS DESTINATION DEFAULTS
+   ECOWAS DESTINATION DATA
 ========================================================= */
 
-const ecowasDestinationData = {
+function createEcowasDestination() {
 
-    nigeria: {
+    return {
 
         entry:
             ecowasEntry,
@@ -716,240 +556,29 @@ const ecowasDestinationData = {
             "Keep evidence of accommodation and sufficient funds available if requested.",
 
         important:
-            "ECOWAS free movement does not remove applicable border, immigration and health procedures."
+            "ECOWAS free movement does not remove applicable border, immigration and health procedures.",
 
-    },
+        verifiedPair:
+            false
 
+    };
 
-    liberia: {
+}
 
-        entry:
-            ecowasEntry,
 
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
+const ecowasDestinationData = {
 
-        documents:
-            "Keep valid identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and recent travel history.",
-
-        financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
-
-        important:
-            "Confirm current border and health requirements before departure."
-
-    },
-
-
-    ghana: {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Yellow Fever documentation may apply depending on the route and travel history.",
-
-        financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
-
-        important:
-            "Regional visa-free travel does not remove applicable immigration and health requirements."
-
-    },
-
-
-    senegal: {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and recent travel history.",
-
-        financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
-
-        important:
-            "Confirm the latest nationality-specific entry conditions before departure."
-
-    },
-
-
-    "sierra-leone": {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and recent travel history.",
-
-        financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
-
-        important:
-            "Regional free movement does not remove applicable border procedures."
-
-    },
-
-
-    gambia: {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and recent travel history.",
-
-        financial:
-            "Keep evidence of sufficient funds available if requested.",
-
-        important:
-            "Confirm current entry conditions before departure."
-
-    },
-
-
-    guinea: {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and recent travel history.",
-
-        financial:
-            "Keep evidence of sufficient means available if requested.",
-
-        important:
-            "Confirm current entry and health requirements before departure."
-
-    },
-
-
-    "guinea-bissau": {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and recent travel history.",
-
-        financial:
-            "Keep evidence of sufficient means available if requested.",
-
-        important:
-            "Confirm the latest entry conditions before travelling."
-
-    },
-
-
-    "cote-divoire": {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and travel history.",
-
-        financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
-
-        important:
-            "Confirm current entry and health requirements before departure."
-
-    },
-
-
-    benin: {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep valid identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and recent travel history.",
-
-        financial:
-            "Keep evidence of sufficient funds available if requested.",
-
-        important:
-            "Check current border and health requirements before travelling."
-
-    },
-
-
-    togo: {
-
-        entry:
-            ecowasEntry,
-
-        passport:
-            "Carry a valid passport or accepted ECOWAS travel document.",
-
-        documents:
-            "Keep valid identification, accommodation and onward or return travel information available.",
-
-        health:
-            "Health requirements depend on route and recent travel history.",
-
-        financial:
-            "Keep evidence of sufficient funds available if requested.",
-
-        important:
-            "Confirm the latest entry conditions before departure."
-
-    },
-
+    nigeria: createEcowasDestination(),
+    liberia: createEcowasDestination(),
+    ghana: createEcowasDestination(),
+    senegal: createEcowasDestination(),
+    "sierra-leone": createEcowasDestination(),
+    gambia: createEcowasDestination(),
+    guinea: createEcowasDestination(),
+    "guinea-bissau": createEcowasDestination(),
+    "cote-divoire": createEcowasDestination(),
+    benin: createEcowasDestination(),
+    togo: createEcowasDestination(),
 
     "cape-verde": {
 
@@ -969,7 +598,10 @@ const ecowasDestinationData = {
             "Keep evidence of accommodation and sufficient funds available if requested.",
 
         important:
-            "The exact visa exemption and maximum permitted stay must be checked against Cabo Verde's current nationality-specific list."
+            "The exact visa exemption and maximum permitted stay must be checked against Cabo Verde's current nationality-specific list.",
+
+        verifiedPair:
+            false
 
     }
 
@@ -977,15 +609,15 @@ const ecowasDestinationData = {
 
 
 /* =========================================================
-   DESTINATION-SPECIFIC AFRICAN RULES
+   VERIFIED PASSPORT → DESTINATION RULES
 ========================================================= */
 
-const africanDestinationOverrides = {
+const passportDestinationRules = {
 
 
     /* =====================================================
-       NIGERIA → KENYA
-    ====================================================== */
+       KENYA
+    ===================================================== */
 
     "nigeria|kenya": {
 
@@ -993,7 +625,7 @@ const africanDestinationOverrides = {
             "Nigerian passport holders are currently listed among African nationalities exempt from Kenya's eTA for qualifying stays of up to 60 days.",
 
         passport:
-            "Carry a Nigerian passport valid for at least 6 months after the planned arrival date and with at least one blank page.",
+            "Carry a Nigerian passport valid for at least 6 months after planned arrival and with at least one blank page.",
 
         documents:
             "Keep your arrival and departure itinerary, accommodation booking and contact information available.",
@@ -1005,14 +637,13 @@ const africanDestinationOverrides = {
             "Keep accommodation and onward or return travel information available.",
 
         important:
-            "Nigeria is currently in Kenya's 60-day eTA-exempt category. Confirm the current exemption and entry conditions before departure."
+            "Nigeria is currently in Kenya's 60-day eTA-exempt category. Confirm the current exemption and entry conditions before departure.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       GHANA → KENYA
-    ====================================================== */
 
     "ghana|kenya": {
 
@@ -1032,14 +663,39 @@ const africanDestinationOverrides = {
             "Keep accommodation and onward or return travel information available.",
 
         important:
-            "Ghana is currently in Kenya's 90-day eTA-exempt category. Confirm the current entry conditions before travel."
+            "Ghana is currently in Kenya's 90-day eTA-exempt category. Confirm the current entry conditions before travel.",
+
+        verifiedPair:
+            true
 
     },
 
 
-    /* =====================================================
-       UK → KENYA
-    ====================================================== */
+    "cape-verde|kenya": {
+
+        entry:
+            "Cabo Verdean passport holders are currently listed among African nationalities exempt from Kenya's eTA for qualifying stays of up to 60 days.",
+
+        passport:
+            "Carry a Cabo Verdean passport valid for at least 6 months after planned arrival and with at least one blank page.",
+
+        documents:
+            "Keep your itinerary, accommodation booking and contact information available.",
+
+        health:
+            "Yellow Fever documentation may apply depending on the route.",
+
+        financial:
+            "Keep accommodation and onward or return travel information available.",
+
+        important:
+            "Cabo Verde is currently in Kenya's 60-day eTA-exempt category. Confirm the current entry conditions before departure.",
+
+        verifiedPair:
+            true
+
+    },
+
 
     "uk|kenya": {
 
@@ -1059,14 +715,13 @@ const africanDestinationOverrides = {
             "Keep accommodation and onward or return travel information available.",
 
         important:
-            "Use Kenya's official eTA system before beginning the journey."
+            "Use Kenya's official eTA system before beginning the journey.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       USA → KENYA
-    ====================================================== */
 
     "usa|kenya": {
 
@@ -1086,14 +741,13 @@ const africanDestinationOverrides = {
             "Keep accommodation and onward or return travel information available.",
 
         important:
-            "Confirm the current eTA conditions before departure."
+            "Confirm the current eTA conditions before departure.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       SOUTH AFRICA → KENYA
-    ====================================================== */
 
     "south-africa-passport|kenya": {
 
@@ -1101,80 +755,133 @@ const africanDestinationOverrides = {
             "South African ordinary passport holders are exempt from Kenya's eTA for qualifying stays of up to 90 days.",
 
         passport:
-            "Carry a valid South African passport with at least 6 months' validity after the planned arrival date and at least one blank page.",
+            "Carry a valid South African passport with at least 6 months' validity after planned arrival and at least one blank page.",
 
         documents:
-            "Keep your arrival and departure itinerary, accommodation details and other supporting travel information available if requested.",
+            "Keep your arrival and departure itinerary, accommodation details and other supporting travel information available.",
 
         health:
-            "A valid Yellow Fever vaccination certificate may be required if arriving from a country with a risk of Yellow Fever transmission or after relevant transit through such a country.",
+            "Yellow Fever documentation may be required depending on the route.",
 
         financial:
             "Keep evidence of sufficient funds and your accommodation and onward or return travel arrangements available if requested.",
 
         important:
-            "South African ordinary passport holders do not need a Kenya eTA for qualifying stays of up to 90 days. Check Kenya's official eTA exemption list and current entry requirements before travel."
+            "South African ordinary passport holders do not need a Kenya eTA for qualifying stays of up to 90 days.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       KENYA → TANZANIA
-    ====================================================== */
-
-    "kenya-passport|tanzania": {
-
-        entry:
-            "Kenyan citizens do not require a Tanzanian tourist visa for qualifying visits. Tanzania lists Kenya among countries whose nationals do not require a visa for entry.",
-
-        passport:
-            "Carry a valid Kenyan passport or another accepted EAC travel document for the intended journey. Check the accepted document requirements before travelling, especially for land-border travel.",
-
-        documents:
-            "Keep accommodation details, travel itinerary and return or onward travel information available. If travelling by road, carry the relevant vehicle and driver documentation.",
-
-        health:
-            "Tanzania's Ministry of Health lists Kenya among countries from which travellers require a valid Yellow Fever vaccination certificate for entry. Carry the original International Certificate of Vaccination or Prophylaxis (Yellow Card).",
-
-        financial:
-            "Keep sufficient funds for the duration of the stay and be prepared to provide supporting travel information if requested.",
-
-        important:
-            "Kenyan citizens are visa-exempt for qualifying entry to Tanzania. If travelling to Zanzibar, foreign visitors must obtain the mandatory Zanzibar Inbound Travel Insurance, currently published at US$44 per visitor for coverage of up to 92 days."
-
-    },
-
-
-    /* =====================================================
-       TANZANIA → KENYA
-    ====================================================== */
 
     "tanzania-passport|kenya": {
 
         entry:
-            "Tanzanian citizens are exempt from Kenya's Electronic Travel Authorisation (eTA). Tanzania is an East African Partner State, and Tanzanian citizens are exempt from the Kenya eTA for qualifying stays of up to 180 days.",
+            "Tanzanian citizens are exempt from Kenya's eTA. Tanzania is an East African Partner State.",
 
         passport:
-            "Carry a valid Tanzanian passport or another accepted EAC travel document for the journey. If travelling with a passport, ensure it meets the applicable travel-document requirements.",
+            "Carry a valid Tanzanian passport or accepted EAC travel document.",
 
         documents:
-            "Keep accommodation details, travel itinerary and return or onward travel information available if requested by immigration.",
+            "Keep accommodation details, travel itinerary and onward or return travel information available.",
 
         health:
-            "Check Kenya's current health and vaccination requirements according to the route and recent travel history. Yellow Fever documentation may apply depending on the traveller's route.",
+            "Check Kenya's current health and vaccination requirements according to the route.",
 
         financial:
             "Keep evidence of sufficient funds and your travel arrangements available if requested.",
 
         important:
-            "Tanzanian citizens do not need a Kenya eTA for qualifying stays of up to 180 days. Final admission and permitted stay are determined by Kenyan immigration at the point of entry."
+            "Tanzanian citizens do not need a Kenya eTA for qualifying entry.",
+
+        verifiedPair:
+            true
 
     },
 
 
     /* =====================================================
-       NIGERIA → TANZANIA
-    ====================================================== */
+       TANZANIA
+    ===================================================== */
+
+    "ghana|tanzania": {
+
+        entry:
+            "Ghanaian passport holders are listed among nationalities that do not require a Tanzanian visa for qualifying visits.",
+
+        passport:
+            "Carry a valid Ghanaian passport meeting Tanzania's current passport requirements.",
+
+        documents:
+            "Keep accommodation details, itinerary and return or onward travel information available.",
+
+        health:
+            "Yellow Fever documentation may apply depending on the route and previous travel history.",
+
+        financial:
+            "Keep evidence of sufficient funds and accommodation available if requested.",
+
+        important:
+            "Ghana is on Tanzania's visa-exempt list. Confirm the latest entry conditions before travel.",
+
+        verifiedPair:
+            true
+
+    },
+
+
+    "kenya-passport|tanzania": {
+
+        entry:
+            "Kenyan citizens do not require a Tanzanian tourist visa for qualifying visits.",
+
+        passport:
+            "Carry a valid Kenyan passport or accepted EAC travel document.",
+
+        documents:
+            "Keep accommodation details, itinerary and onward or return travel information available.",
+
+        health:
+            "Check Tanzania's current Yellow Fever requirements for your route.",
+
+        financial:
+            "Keep sufficient funds and supporting travel information available if requested.",
+
+        important:
+            "Kenyan citizens are visa-exempt for qualifying entry to Tanzania.",
+
+        verifiedPair:
+            true
+
+    },
+
+
+    "south-africa-passport|tanzania": {
+
+        entry:
+            "South African passport holders are visa-exempt for entry into Tanzania for qualifying visits.",
+
+        passport:
+            "Carry a valid South African passport or accepted travel document with at least 6 months' validity.",
+
+        documents:
+            "Keep your return or onward ticket, accommodation details and other supporting travel information available.",
+
+        health:
+            "Yellow Fever certification may be required depending on the countries visited or transited before Tanzania.",
+
+        financial:
+            "Keep evidence of sufficient funds for the intended stay.",
+
+        important:
+            "If entering Zanzibar, check the latest Zanzibar-specific travel insurance and entry requirements before departure.",
+
+        verifiedPair:
+            true
+
+    },
+
 
     "nigeria|tanzania": {
 
@@ -1182,112 +889,34 @@ const africanDestinationOverrides = {
             "Nigerian passport holders are not listed among Tanzania's visa-exempt nationalities. Nigerian travellers should obtain the appropriate Tanzanian visa or other applicable entry permission before travel.",
 
         passport:
-            "Carry a Nigerian passport meeting Tanzania's current passport-validity requirements, including the applicable minimum validity and blank-page requirements.",
+            "Carry a Nigerian passport meeting Tanzania's current passport-validity requirements.",
 
         documents:
-            "Prepare accommodation details, itinerary, return or onward travel information and any supporting documents required for the applicable visa.",
+            "Prepare accommodation details, itinerary, return or onward travel information and supporting documents required for the applicable visa.",
 
         health:
-            "Tanzania's Ministry of Health lists Nigeria among countries from which travellers require a valid Yellow Fever vaccination certificate for entry.",
+            "Tanzania's health guidance lists Nigeria among countries from which travellers require a valid Yellow Fever vaccination certificate for entry.",
 
         financial:
             "Keep evidence of sufficient funds, accommodation and onward or return travel available if requested.",
 
         important:
-            "Check Tanzania's official immigration system before travel for the current visa category, application procedure and entry requirements."
+            "Check Tanzania's official immigration system before travel for the current visa category and application procedure.",
+
+        verifiedPair:
+            true
 
     },
 
 
     /* =====================================================
-       SOUTH AFRICA → TANZANIA
-    ====================================================== */
-
-    "south-africa-passport|tanzania": {
-
-        entry:
-            "South African passport holders are visa-exempt for entry into Tanzania. Qualifying visitor stays may be granted for up to 90 days.",
-
-        passport:
-            "Carry a valid South African passport or other accepted travel document with at least 6 months' validity.",
-
-        documents:
-            "Keep your return or onward ticket, accommodation details or host information and other supporting travel information available if requested by Tanzanian immigration officials.",
-
-        health:
-            "Yellow Fever vaccination certification is generally required only when arriving from a Yellow Fever risk country or after 12 hours or more of transit through a Yellow Fever risk country. Travellers arriving directly from South Africa generally do not fall under this requirement.",
-
-        financial:
-            "Keep evidence of sufficient funds for your intended stay and supporting accommodation and travel information available if requested.",
-
-        important:
-            "If entering Zanzibar, foreign visitors must obtain the mandatory Zanzibar Inbound Travel Insurance from the Zanzibar Insurance Corporation (ZIC), currently priced at US$44 per visitor for coverage of up to 92 days. From 1 October 2026, foreign visitors entering Mainland Tanzania will also be required to obtain designated inbound travel insurance through the National Insurance Corporation (NIC), with a published premium of US$44 per visitor for coverage of up to 92 days."
-
-    },
-
-
-    /* =====================================================
-       KENYA → SOUTH AFRICA
-    ====================================================== */
-
-    "kenya-passport|south-africa": {
-
-        entry:
-            "Kenyan ordinary passport holders may enter South Africa visa-free for up to 90 days per calendar year for qualifying visits.",
-
-        passport:
-            "Carry your valid Kenyan passport and ensure it has sufficient validity and blank pages for the journey. Confirm the latest South African passport-entry requirements before departure.",
-
-        documents:
-            "Keep your return or onward ticket, accommodation details or host information, and evidence of sufficient funds available in case they are requested by immigration officials or the airline.",
-
-        health:
-            "Kenya is listed by South Africa as a country from which travellers require a valid Yellow Fever vaccination certificate. Carry your International Certificate of Vaccination or Prophylaxis (Yellow Card).",
-
-        financial:
-            "Keep evidence of sufficient funds for your intended stay, together with accommodation and return or onward travel information, available if requested.",
-
-        important:
-            "The Kenyan visa exemption is limited to 90 days per calendar year. From 1 July 2026, travellers entering or leaving South Africa are generally required to submit the South African Traveller Declaration through SARS/SATMS, subject to limited exceptions. Complete it before travel and keep the confirmation available."
-
-    },
-
-
-    /* =====================================================
-       TANZANIA → SOUTH AFRICA
-    ====================================================== */
-
-    "tanzania-passport|south-africa": {
-
-        entry:
-            "Tanzanian ordinary passport holders may enter South Africa without a visa for qualifying visits of up to 90 days per year.",
-
-        passport:
-            "Carry a valid Tanzanian passport. South African government guidance for visitor travel uses a passport valid for at least 30 days beyond the intended stay and with at least two blank pages.",
-
-        documents:
-            "Keep your return or onward ticket, accommodation details or host information, and other supporting travel information available in case they are requested by immigration officials or the airline.",
-
-        health:
-            "A Yellow Fever vaccination certificate may be required depending on the countries visited or transited before entering South Africa. Check the current South African Department of Health requirements for your specific route.",
-
-        financial:
-            "Keep evidence of sufficient funds for your intended stay, together with accommodation and return or onward travel information, available if requested.",
-
-        important:
-            "Tanzanian ordinary passport holders are visa-exempt for up to 90 days per year for qualifying visits. From 1 July 2026, travellers entering or leaving South Africa are generally required to submit the South African Traveller Declaration through SARS/SATMS, subject to limited exceptions. The declaration should generally be completed no more than 24 hours before departure from the country or the final leg of the journey to South Africa."
-
-    },
-
-
-    /* =====================================================
-       NIGERIA → RWANDA
-    ====================================================== */
+       RWANDA
+    ===================================================== */
 
     "nigeria|rwanda": {
 
         entry:
-            "Nigerian citizens are eligible for Rwanda's African Union visa-fee waiver arrangement for qualifying stays of up to 30 days.",
+            "Nigerian citizens qualify for Rwanda's African Union visa-fee waiver arrangement for qualifying stays of up to 30 days.",
 
         passport:
             "Carry a genuine accepted Nigerian passport or travel document valid for at least 6 months.",
@@ -1302,46 +931,70 @@ const africanDestinationOverrides = {
             "Be prepared to demonstrate sufficient funds and accommodation if requested.",
 
         important:
-            "Rwanda permits visa on arrival for all nationalities, while qualifying African nationals receive a visa-fee waiver. Confirm the current stay conditions before departure."
+            "Rwanda permits visa on arrival for all nationalities, while qualifying African nationals receive a visa-fee waiver.",
+
+        verifiedPair:
+            true
 
     },
 
 
-    /* =====================================================
-       GHANA → RWANDA
-    ====================================================== */
-
     "ghana|rwanda": {
 
         entry:
-            "Ghanaian ordinary passport holders are currently eligible for visa-free entry to Rwanda for up to 90 days.",
+            "Ghanaian citizens qualify for Rwanda's African Union visa-fee waiver arrangement for qualifying stays of up to 30 days.",
 
         passport:
-            "Carry a genuine passport or accepted travel document valid for at least 6 months.",
+            "Carry a genuine accepted Ghanaian passport or travel document valid for at least 6 months.",
+
+        documents:
+            "Keep accommodation details and return or onward travel information available.",
+
+        health:
+            "Check current health requirements according to the route.",
+
+        financial:
+            "Keep evidence of sufficient funds and accommodation available if requested.",
+
+        important:
+            "Confirm Rwanda's current entry conditions before departure.",
+
+        verifiedPair:
+            true
+
+    },
+
+
+    "cape-verde|rwanda": {
+
+        entry:
+            "Cabo Verdean citizens qualify for Rwanda's African Union visa-fee waiver arrangement for qualifying stays of up to 30 days.",
+
+        passport:
+            "Carry a valid Cabo Verdean passport or accepted travel document.",
 
         documents:
             "Keep accommodation and return or onward travel information available.",
 
         health:
-            "Check current health requirements according to the route and recent travel history.",
+            "Check current health requirements according to the route.",
 
         financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
+            "Keep evidence of sufficient funds available if requested.",
 
         important:
-            "Confirm Rwanda's current entry conditions before departure."
+            "Confirm Rwanda's current entry conditions before departure.",
+
+        verifiedPair:
+            true
 
     },
 
 
-    /* =====================================================
-       SOUTH AFRICA → RWANDA
-    ====================================================== */
-
     "south-africa-passport|rwanda": {
 
         entry:
-            "South African citizens receive visa on arrival in Rwanda with the applicable African Union visa-fee waiver arrangement for a 30-day stay.",
+            "South African citizens qualify for Rwanda's African Union visa-fee waiver arrangement for a 30-day stay.",
 
         passport:
             "Carry a passport or accepted travel document valid for at least 6 months.",
@@ -1350,20 +1003,19 @@ const africanDestinationOverrides = {
             "Keep accommodation and return or onward travel information available.",
 
         health:
-            "Check current health requirements based on your route and recent travel history.",
+            "Check current health requirements based on your route.",
 
         financial:
             "Be prepared to demonstrate sufficient funds and accommodation if requested.",
 
         important:
-            "Confirm the current Rwanda immigration position before departure."
+            "Confirm the current Rwanda immigration position before departure.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       KENYA → RWANDA
-    ====================================================== */
 
     "kenya-passport|rwanda": {
 
@@ -1383,14 +1035,13 @@ const africanDestinationOverrides = {
             "Keep sufficient-funds evidence available if requested.",
 
         important:
-            "EAC citizens receive special entry treatment in Rwanda. Confirm the current border requirements before travel."
+            "EAC citizens receive special entry treatment in Rwanda.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       TANZANIA → RWANDA
-    ====================================================== */
 
     "tanzania-passport|rwanda": {
 
@@ -1410,14 +1061,13 @@ const africanDestinationOverrides = {
             "Keep sufficient-funds evidence available if requested.",
 
         important:
-            "EAC citizens receive special entry treatment in Rwanda. Confirm current border requirements before departure."
+            "EAC citizens receive special entry treatment in Rwanda.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       UGANDA → RWANDA
-    ====================================================== */
 
     "uganda-passport|rwanda": {
 
@@ -1437,14 +1087,17 @@ const africanDestinationOverrides = {
             "Keep sufficient-funds evidence available if requested.",
 
         important:
-            "Confirm the current EAC entry requirements before travelling."
+            "Confirm the current EAC entry requirements before travelling.",
+
+        verifiedPair:
+            true
 
     },
 
 
     /* =====================================================
-       NIGERIA → SEYCHELLES
-    ====================================================== */
+       SEYCHELLES
+    ===================================================== */
 
     "nigeria|seychelles": {
 
@@ -1464,19 +1117,18 @@ const africanDestinationOverrides = {
             "Seychelles publishes a minimum visitor funds requirement of US$150 per day or equivalent.",
 
         important:
-            "Visa-free entry does not remove the requirement to obtain the Seychelles Travel Authorisation before departure."
+            "Visa-free entry does not remove the requirement to obtain the Seychelles Travel Authorisation before departure.",
+
+        verifiedPair:
+            true
 
     },
 
 
-    /* =====================================================
-       GHANA → SEYCHELLES
-    ====================================================== */
-
     "ghana|seychelles": {
 
         entry:
-            "Seychelles is visa-free for Ghanaian passport holders, subject to the country's visitor conditions and required Travel Authorisation.",
+            "Seychelles is visa-free for Ghanaian passport holders, subject to visitor conditions and the required Travel Authorisation.",
 
         passport:
             "Carry a valid Ghanaian passport covering the intended stay and return journey.",
@@ -1491,41 +1143,69 @@ const africanDestinationOverrides = {
             "Seychelles publishes a minimum visitor funds requirement of US$150 per day or equivalent.",
 
         important:
-            "Complete the Travel Authorisation before departure even though a visa is not generally required."
+            "Complete the Travel Authorisation before departure even though a visa is not generally required.",
+
+        verifiedPair:
+            true
 
     },
 
 
-    /* =====================================================
-       GHANA → CABO VERDE
-    ====================================================== */
-
-    "ghana|cape-verde": {
+    "cape-verde|seychelles": {
 
         entry:
-            "Ghanaian passport holders are currently visa-exempt for qualifying stays of up to 90 days in Cabo Verde.",
+            "Seychelles is visa-free for Cabo Verdean passport holders, subject to visitor conditions and the required Travel Authorisation.",
 
         passport:
-            "Carry a passport valid for at least 6 months from entry.",
+            "Carry a valid Cabo Verdean passport covering the intended stay and return journey.",
 
         documents:
-            "Complete EASE pre-registration before travel and keep accommodation and return or onward travel information available.",
+            "Have confirmed accommodation, a return or onward ticket and the required Travel Authorisation.",
 
         health:
-            "Check current health and vaccination requirements according to the route.",
+            "Check current health requirements based on your recent travel history.",
 
         financial:
-            "Keep evidence of accommodation and sufficient funds available if requested.",
+            "Seychelles publishes a minimum visitor funds requirement of US$150 per day or equivalent.",
 
         important:
-            "Ghana is currently listed by Cabo Verde as visa-exempt for up to 90 days. EASE pre-registration is still required."
+            "Complete the Travel Authorisation before departure.",
+
+        verifiedPair:
+            true
+
+    },
+
+
+    "south-africa-passport|seychelles": {
+
+        entry:
+            "Seychelles is visa-free for South African passport holders, subject to visitor conditions and the required Travel Authorisation.",
+
+        passport:
+            "Carry a valid South African passport covering the intended stay and return journey.",
+
+        documents:
+            "Have confirmed accommodation, a return or onward ticket and the required Travel Authorisation.",
+
+        health:
+            "Check current health requirements based on recent travel history.",
+
+        financial:
+            "Seychelles publishes a minimum visitor funds requirement of US$150 per day or equivalent.",
+
+        important:
+            "Complete the Travel Authorisation before departure.",
+
+        verifiedPair:
+            true
 
     },
 
 
     /* =====================================================
-       NIGERIA → CABO VERDE
-    ====================================================== */
+       CABO VERDE
+    ===================================================== */
 
     "nigeria|cape-verde": {
 
@@ -1545,14 +1225,39 @@ const africanDestinationOverrides = {
             "Keep evidence of accommodation and sufficient funds available if requested.",
 
         important:
-            "Nigeria is currently listed by Cabo Verde as visa-exempt for up to 90 days. EASE pre-registration is still required."
+            "Nigeria is currently listed by Cabo Verde as visa-exempt for up to 90 days. EASE pre-registration is still required.",
+
+        verifiedPair:
+            true
 
     },
 
 
-    /* =====================================================
-       LIBERIA → CABO VERDE
-    ====================================================== */
+    "ghana|cape-verde": {
+
+        entry:
+            "Ghanaian passport holders are currently visa-exempt for qualifying stays of up to 90 days in Cabo Verde.",
+
+        passport:
+            "Carry a passport valid for at least 6 months from entry.",
+
+        documents:
+            "Complete EASE pre-registration before travel and keep accommodation and return or onward travel information available.",
+
+        health:
+            "Check current health and vaccination requirements according to the route.",
+
+        financial:
+            "Keep evidence of accommodation and sufficient funds available if requested.",
+
+        important:
+            "Ghana is currently listed by Cabo Verde as visa-exempt for up to 90 days. EASE pre-registration is still required.",
+
+        verifiedPair:
+            true
+
+    },
+
 
     "liberia|cape-verde": {
 
@@ -1572,14 +1277,13 @@ const africanDestinationOverrides = {
             "Keep evidence of accommodation and sufficient funds available if requested.",
 
         important:
-            "Liberia is currently listed by Cabo Verde as visa-exempt for up to 90 days."
+            "Liberia is currently listed by Cabo Verde as visa-exempt for up to 90 days.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       SENEGAL → CABO VERDE
-    ====================================================== */
 
     "senegal|cape-verde": {
 
@@ -1599,14 +1303,13 @@ const africanDestinationOverrides = {
             "Keep evidence of accommodation and sufficient funds available if requested.",
 
         important:
-            "Senegal is currently listed by Cabo Verde as visa-exempt for up to 90 days."
+            "Senegal is currently listed by Cabo Verde as visa-exempt for up to 90 days.",
+
+        verifiedPair:
+            true
 
     },
 
-
-    /* =====================================================
-       SIERRA LEONE → CABO VERDE
-    ====================================================== */
 
     "sierra-leone|cape-verde": {
 
@@ -1626,73 +1329,100 @@ const africanDestinationOverrides = {
             "Keep evidence of accommodation and sufficient funds available if requested.",
 
         important:
-            "Sierra Leone is currently listed by Cabo Verde as visa-exempt for up to 90 days."
+            "Sierra Leone is currently listed by Cabo Verde as visa-exempt for up to 90 days.",
+
+        verifiedPair:
+            true
+
+    },
+
+
+    /* =====================================================
+       MOROCCO → CABO VERDE
+    ===================================================== */
+
+    "morocco-passport|cape-verde": {
+
+        entry:
+            "Moroccan passport holders are currently visa-exempt for stays of up to 30 days in Cabo Verde.",
+
+        passport:
+            "Carry a Moroccan passport valid for at least 6 months from the date of entry into Cabo Verde.",
+
+        documents:
+            "Complete the mandatory EASE pre-registration before travel and keep accommodation and return or onward travel information available.",
+
+        health:
+            "No routine vaccination requirement is currently stated specifically for Moroccan passport holders. Additional health or vaccination documentation may apply depending on the travel route and recent travel history.",
+
+        financial:
+            "Keep evidence of accommodation, return or onward travel and sufficient funds available if requested at the border.",
+
+        important:
+            "Moroccan citizens are currently visa-exempt for up to 30 days. EASE pre-registration is still mandatory before travel.",
+
+        verifiedPair:
+            true
 
     }
 
 };
 
+
 /* =========================================================
-   GENERIC AFRICAN → AFRICAN RULE
+   GET TRAVEL RESULT
 ========================================================= */
 
-function getAfricanDestinationResult(
+function getTravelResult(
     passport,
-    destination,
-    destinationData
+    destination
 ) {
 
     const pairKey =
         `${passport}|${destination}`;
 
 
-    /* -----------------------------------------
-       EXACT VERIFIED PAIR
-    ----------------------------------------- */
+    /* -----------------------------------------------------
+       EXACT PASSPORT + DESTINATION RULE
+    ----------------------------------------------------- */
 
     if (
-        africanDestinationOverrides[
-            pairKey
-        ]
+        passportDestinationRules[pairKey]
     ) {
 
         return {
-            ...africanDestinationOverrides[pairKey],
-            verifiedPair: true
+            ...passportDestinationRules[pairKey]
         };
 
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        ECOWAS → ECOWAS
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (
         ecowasPassports.includes(passport) &&
         ecowasDestinations.includes(destination)
     ) {
 
-        const ecowasData =
-            ecowasDestinationData[destination];
-
         return {
-            ...ecowasData,
+            ...ecowasDestinationData[destination],
 
             verifiedPair:
                 false,
 
             important:
-                "ECOWAS citizens may benefit from regional free-movement arrangements, but this general result is not a nationality-specific verification. Confirm the current entry, travel-document and health requirements for this exact journey before departure."
+                "ECOWAS citizens may benefit from regional free-movement arrangements, but this result is a general regional guide rather than an individual nationality verification. Confirm the current entry, travel-document and health requirements before departure."
 
         };
 
     }
 
 
-    /* -----------------------------------------
-       AFRICAN → RWANDA
-    ----------------------------------------- */
+    /* -----------------------------------------------------
+       AFRICAN PASSPORT → RWANDA
+    ----------------------------------------------------- */
 
     if (
         africanPassports.includes(passport) &&
@@ -1702,7 +1432,7 @@ function getAfricanDestinationResult(
         return {
 
             entry:
-                "Rwanda allows citizens of all countries to obtain a visa on arrival. Qualifying African Union citizens receive a visa-fee waiver for a 30-day stay, while EAC citizens receive special entry treatment for stays of up to six months.",
+                "Rwanda allows citizens of all countries to obtain a visa on arrival. Qualifying African Union citizens receive applicable visa-fee exemptions for short stays, while EAC citizens receive special entry treatment.",
 
             passport:
                 "Carry a genuine accepted travel document valid for at least 6 months.",
@@ -1717,7 +1447,7 @@ function getAfricanDestinationResult(
                 "Be prepared to demonstrate sufficient funds and accommodation if requested.",
 
             important:
-                "This is an Africa-wide Rwanda rule rather than a nationality-specific determination. Confirm the exact stay period applicable to your passport before travel.",
+                "This is a general Rwanda rule rather than an individually verified passport combination. Confirm the exact stay period applicable to your passport before travel.",
 
             verifiedPair:
                 false
@@ -1727,9 +1457,9 @@ function getAfricanDestinationResult(
     }
 
 
-    /* -----------------------------------------
-       AFRICAN → CABO VERDE
-    ----------------------------------------- */
+    /* -----------------------------------------------------
+       AFRICAN PASSPORT → CABO VERDE
+    ----------------------------------------------------- */
 
     if (
         africanPassports.includes(passport) &&
@@ -1754,7 +1484,7 @@ function getAfricanDestinationResult(
                 "Keep accommodation, return or onward travel and sufficient-funds evidence available if requested.",
 
             important:
-                "This combination is not individually listed in the Duchess verified-pair database. Check Cabo Verde's current official nationality list before travelling.",
+                "This passport-to-destination combination has not been individually verified in the Duchess database. Check Cabo Verde's current official nationality list before travelling.",
 
             verifiedPair:
                 false
@@ -1764,34 +1494,40 @@ function getAfricanDestinationResult(
     }
 
 
-    /* -----------------------------------------
-       OTHER AFRICAN DESTINATIONS
-    ----------------------------------------- */
+    /* -----------------------------------------------------
+       DESTINATION GENERAL GUIDANCE
+    ----------------------------------------------------- */
 
     if (
-        africanPassports.includes(passport) &&
-        destinationData
+        destinationGuidance[destination]
+    ) {
+
+        const data =
+            destinationGuidance[destination];
+
+        return {
+
+            ...data,
+
+            verifiedPair:
+                false
+
+        };
+
+    }
+
+
+    /* -----------------------------------------------------
+       ECOWAS FALLBACK
+    ----------------------------------------------------- */
+
+    if (
+        ecowasDestinationData[destination]
     ) {
 
         return {
 
-            entry:
-                destinationData.entry,
-
-            passport:
-                destinationData.passport,
-
-            documents:
-                destinationData.documents,
-
-            health:
-                destinationData.health,
-
-            financial:
-                destinationData.financial,
-
-            important:
-                "This result contains destination guidance, but the exact passport-to-destination rule has not been individually verified in the Duchess database. Confirm the nationality-specific rule before booking or travelling.",
+            ...ecowasDestinationData[destination],
 
             verifiedPair:
                 false
@@ -1807,63 +1543,7 @@ function getAfricanDestinationResult(
 
 
 /* =========================================================
-   GET STANDARD DESTINATION RESULT
-========================================================= */
-
-function getStandardDestinationResult(
-    passport,
-    destination,
-    destinationData
-) {
-
-    const pairKey =
-        `${passport}|${destination}`;
-
-
-    if (
-        africanDestinationOverrides[
-            pairKey
-        ]
-    ) {
-
-        return {
-            ...africanDestinationOverrides[pairKey],
-            verifiedPair: true
-        };
-
-    }
-
-
-    return {
-
-        entry:
-            destinationData.entry,
-
-        passport:
-            destinationData.passport,
-
-        documents:
-            destinationData.documents,
-
-        health:
-            destinationData.health,
-
-        financial:
-            destinationData.financial,
-
-        important:
-            destinationData.important,
-
-        verifiedPair:
-            false
-
-    };
-
-}
-
-
-/* =========================================================
-   UPDATE TRAVEL REQUIREMENTS
+   UPDATE REQUIREMENTS DISPLAY
 ========================================================= */
 
 function updateTravelRequirements() {
@@ -1887,9 +1567,9 @@ function updateTravelRequirements() {
         passportSelect.value;
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        NOTHING SELECTED
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (
         !selectedDestination ||
@@ -1909,9 +1589,9 @@ function updateTravelRequirements() {
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        OTHER DESTINATION
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (
         selectedDestination === "other"
@@ -1993,7 +1673,7 @@ function updateTravelRequirements() {
         if (importantGuidance) {
 
             importantGuidance.textContent =
-                "Contact Duchess for a destination-specific passport check before making travel arrangements.";
+                "Contact Duchess World Travel & Experiences for a destination-specific passport check before making travel arrangements.";
 
         }
 
@@ -2003,98 +1683,15 @@ function updateTravelRequirements() {
     }
 
 
-    /* -----------------------------------------
-       DESTINATION DATA
-    ----------------------------------------- */
-
-    let destinationData =
-        null;
-
-    let result =
-        null;
-
-
-    /* -----------------------------------------
-       AFRICA DESTINATIONS
-    ----------------------------------------- */
-
-    if (
-        africanDestinationGuidance[
-            selectedDestination
-        ]
-    ) {
-
-        destinationData =
-            africanDestinationGuidance[
-                selectedDestination
-            ];
-
-    }
-
-
-    /* -----------------------------------------
-       ECOWAS DESTINATION
-    ----------------------------------------- */
-
-    else if (
-        ecowasDestinationData[
-            selectedDestination
-        ]
-    ) {
-
-        destinationData =
-            ecowasDestinationData[
-                selectedDestination
-            ];
-
-    }
-
-
-    if (!destinationData) {
-
-        passportDynamic.classList.remove(
-            "active"
-        );
-
-        passportDefault.classList.add(
-            "active"
-        );
-
-        return;
-
-    }
-
-
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        GET RESULT
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
-    if (
-        africanPassports.includes(
-            selectedPassport
-        )
-    ) {
-
-        result =
-            getAfricanDestinationResult(
-                selectedPassport,
-                selectedDestination,
-                destinationData
-            );
-
-    }
-
-
-    if (!result) {
-
-        result =
-            getStandardDestinationResult(
-                selectedPassport,
-                selectedDestination,
-                destinationData
-            );
-
-    }
+    const result =
+        getTravelResult(
+            selectedPassport,
+            selectedDestination
+        );
 
 
     if (!result) {
@@ -2103,10 +1700,6 @@ function updateTravelRequirements() {
 
     }
 
-
-    /* -----------------------------------------
-       NAMES
-    ----------------------------------------- */
 
     const destination =
         destinationNames[
@@ -2122,9 +1715,9 @@ function updateTravelRequirements() {
         "Passport";
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        SHOW RESULT
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     passportDefault.classList.remove(
         "active"
@@ -2135,9 +1728,9 @@ function updateTravelRequirements() {
     );
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        DESTINATION LABEL
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (requirementDestinationLabel) {
 
@@ -2147,9 +1740,9 @@ function updateTravelRequirements() {
     }
 
 
-    /* -----------------------------------------
-       TITLE
-    ----------------------------------------- */
+    /* -----------------------------------------------------
+       RESULT TITLE
+    ----------------------------------------------------- */
 
     if (requirementResultTitle) {
 
@@ -2159,9 +1752,9 @@ function updateTravelRequirements() {
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        DESCRIPTION
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (requirementResultDescription) {
 
@@ -2173,81 +1766,87 @@ function updateTravelRequirements() {
         } else {
 
             requirementResultDescription.textContent =
-                `Destination guidance for ${passport} travelling to ${destination}. The exact nationality-specific rule should be confirmed before travel.`;
+                `General destination guidance for ${passport} travelling to ${destination}. Confirm the exact nationality-specific rule before travel.`;
 
         }
 
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        ENTRY
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (entryGuidance) {
 
         entryGuidance.textContent =
-            result.entry;
+            result.entry ||
+            generalTravelNotes.documents;
 
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        PASSPORT
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (passportGuidance) {
 
         passportGuidance.textContent =
-            result.passport;
+            result.passport ||
+            generalTravelNotes.passport;
 
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        DOCUMENTS
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (documentGuidance) {
 
         documentGuidance.textContent =
-            result.documents;
+            result.documents ||
+            generalTravelNotes.documents;
 
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        HEALTH
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (healthGuidance) {
 
         healthGuidance.textContent =
-            result.health;
+            result.health ||
+            generalTravelNotes.health;
 
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        FINANCIAL
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (financialGuidance) {
 
         financialGuidance.textContent =
-            result.financial;
+            result.financial ||
+            generalTravelNotes.financial;
 
     }
 
 
-    /* -----------------------------------------
+    /* -----------------------------------------------------
        IMPORTANT
-    ----------------------------------------- */
+    ----------------------------------------------------- */
 
     if (importantGuidance) {
 
         importantGuidance.textContent =
-            result.important;
+            result.important ||
+            generalTravelNotes.important;
 
     }
 
@@ -2276,6 +1875,13 @@ if (passportSelect) {
     );
 
 }
+
+
+/* =========================================================
+   INITIAL REQUIREMENTS CHECK
+========================================================= */
+
+updateTravelRequirements();
 
 
 /* =========================================================
@@ -2392,17 +1998,14 @@ if (menuToggle && mobileNav) {
                         "active"
                     );
 
-
                     menuToggle.classList.remove(
                         "active"
                     );
-
 
                     menuToggle.setAttribute(
                         "aria-expanded",
                         "false"
                     );
-
 
                     menuToggle.setAttribute(
                         "aria-label",
