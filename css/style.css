@@ -6622,7 +6622,7 @@ h2 span {
     color: var(--white);
 
     background-image:
-        url("../images/wheretogo.jpg");
+        url("../images/old-map.png");
 
     background-size: cover;
     background-position: center;
@@ -9741,4 +9741,1137 @@ h2 span {
         font-size: 1.7rem;
         letter-spacing: -0.045em;
     }
+}
+
+/* =========================================================
+   CEO HOMEPAGE SECTION
+   THE DUCHESS EXPERIENCE + OUR VISION
+========================================================= */
+
+
+/* =========================================================
+   THE DUCHESS EXPERIENCE
+========================================================= */
+
+.duchess-experience {
+    background: #080808;
+    padding: 80px 0 95px;
+}
+
+.duchess-experience-grid {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 42px;
+    align-items: start;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+/* Duchess logo */
+
+.duchess-experience-logo {
+    width: 240px;
+    height: 240px;
+    overflow: hidden;
+}
+
+.duchess-experience-logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+/* Text */
+
+.duchess-experience-content {
+    padding-top: 28px;
+}
+
+.duchess-experience-content .eyebrow {
+    margin: 0 0 32px;
+    color: #d8ad5c;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    line-height: 1.5;
+}
+
+.duchess-experience-content h2 {
+    margin: 0 0 32px;
+    color: #f5f1e9;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(3rem, 5vw, 4.7rem);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+}
+
+.duchess-experience-content .lead-text {
+    max-width: 920px;
+    margin: 0;
+    color: #f0ede7;
+    font-size: 1.15rem;
+    line-height: 1.55;
+    font-weight: 400;
+}
+
+
+/* =========================================================
+   OUR VISION
+========================================================= */
+
+.our-vision {
+    background: #080808;
+    padding: 0 0 110px;
+}
+
+.vision-box {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 38px 32px 42px;
+    background: #151412;
+    border: 1px solid rgba(205, 163, 78, 0.45);
+}
+
+
+/* Home / About Us */
+
+.vision-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.vision-breadcrumb a {
+    color: #d8ad5c;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.vision-breadcrumb span {
+    color: #d8ad5c;
+    font-size: 0.8rem;
+}
+
+
+/* Vision layout */
+
+.vision-content {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.vision-label h2 {
+    margin: 0;
+    color: #f5f1e9;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.3rem, 4vw, 3.4rem);
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.vision-text p {
+    margin: 0;
+    color: #f0ede7;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .duchess-experience {
+        padding: 65px 0 75px;
+    }
+
+    .duchess-experience-grid {
+        grid-template-columns: 190px minmax(0, 1fr);
+        gap: 30px;
+    }
+
+    .duchess-experience-logo {
+        width: 190px;
+        height: 190px;
+    }
+
+    .duchess-experience-content {
+        padding-top: 12px;
+    }
+
+    .duchess-experience-content h2 {
+        font-size: clamp(2.5rem, 6vw, 3.6rem);
+    }
+
+    .duchess-experience-content .lead-text {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .duchess-experience {
+        padding: 55px 0 65px;
+    }
+
+    .duchess-experience-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .duchess-experience-logo {
+        width: 210px;
+        height: 210px;
+    }
+
+    .duchess-experience-content {
+        padding-top: 0;
+    }
+
+    .duchess-experience-content .eyebrow {
+        margin-bottom: 22px;
+        font-size: 0.78rem;
+        letter-spacing: 0.12em;
+    }
+
+    .duchess-experience-content h2 {
+        margin-bottom: 24px;
+        font-size: clamp(2.35rem, 10vw, 3.3rem);
+        line-height: 1.05;
+    }
+
+    .duchess-experience-content .lead-text {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+
+
+    /* Vision */
+
+    .our-vision {
+        padding-bottom: 70px;
+    }
+
+    .vision-box {
+        padding: 28px 22px 32px;
+    }
+
+    .vision-breadcrumb {
+        margin-bottom: 28px;
+    }
+
+    .vision-breadcrumb a {
+        font-size: 0.82rem;
+    }
+
+    .vision-content {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .vision-label h2 {
+        font-size: 2.4rem;
+    }
+
+    .vision-text p {
+        font-size: 0.98rem;
+        line-height: 1.7;
+    }
+
+}
+
+
+@media (max-width: 420px) {
+
+    .duchess-experience-logo {
+        width: 180px;
+        height: 180px;
+    }
+
+    .duchess-experience-content h2 {
+        font-size: 2.25rem;
+    }
+
+    .duchess-experience-content .lead-text {
+        font-size: 0.95rem;
+    }
+
+}
+
+/* =========================================================
+DESTINATION COLLECTION
+========================================================= */
+
+.destination-collection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    }
+    
+    /* Section Heading */
+    
+    .destination-collection .section-heading {
+    margin-bottom: 50px;
+    }
+    
+ /* =========================================================
+   DESTINATION SECTION — WIDE LAYOUT
+========================================================= */
+
+.destination-collection .container {
+    width: 96%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   DESTINATION GRID
+========================================================= */
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =========================================================
+   DESTINATION CARD
+========================================================= */
+
+.destination-card {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+}
+
+
+/* =========================================================
+   DESTINATION IMAGE
+========================================================= */
+
+.destination-image {
+    position: relative;
+    width: 100%;
+    height: 540px;
+    overflow: hidden;
+    border-radius: 14px;
+    isolation: isolate;
+}
+
+.destination-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.destination-card:hover .destination-image img {
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   OVERLAY
+========================================================= */
+
+.destination-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.6) 35%,
+        rgba(0, 0, 0, 0.15) 70%,
+        transparent 100%
+    );
+}
+
+
+/* =========================================================
+   DESTINATION CONTENT
+========================================================= */
+
+.destination-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 30px 26px;
+    color: #fff;
+}
+
+.destination-country {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #d4af37;
+}
+
+.destination-content h3 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #fff;
+}
+
+.destination-content p {
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.destination-price {
+    margin-bottom: 16px;
+}
+
+.destination-price strong {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.destination-price small {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.destination-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.destination-link:hover {
+    color: #d4af37;
+    gap: 12px;
+}
+
+
+/* =========================================================
+   VERY LARGE SCREENS
+========================================================= */
+
+@media (min-width: 1600px) {
+
+    .destination-collection .container {
+        max-width: 1700px;
+    }
+
+    .destination-grid {
+        gap: 18px;
+    }
+
+    .destination-image {
+        height: 580px;
+    }
+
+}
+
+
+/* =========================================================
+   DESKTOP
+========================================================= */
+
+@media (max-width: 1300px) {
+
+    .destination-collection .container {
+        width: 94%;
+    }
+
+    .destination-grid {
+        gap: 14px;
+    }
+
+    .destination-image {
+        height: 520px;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .destination-collection .container {
+        width: 92%;
+    }
+
+    .destination-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .destination-image {
+        height: 520px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .destination-collection .container {
+        width: 92%;
+    }
+
+    .destination-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .destination-image {
+        height: 500px;
+    }
+
+    .destination-content {
+        padding: 25px 22px;
+    }
+
+    .destination-content h3 {
+        font-size: 25px;
+    }
+
+}
+/* =========================================================
+   PACKAGES PAGE
+   KEEP HEADER ALIGNED WITH INDEX
+========================================================= */
+
+/* Keep the normal page container alignment */
+.packages-list .container,
+.package-tiers .container,
+.featured-package .container,
+.package-process .container {
+    width: 100%;
+}
+
+
+/* =========================================================
+   AFRICA COLLECTION
+   WIDER CARDS WITHOUT MOVING THE CONTAINER
+========================================================= */
+
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+    width: 100%;
+}
+
+
+/* =========================================================
+   PACKAGE CARDS
+========================================================= */
+
+.package-card {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.package-card-image {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.package-card-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.package-card:hover .package-card-image img {
+    transform: scale(1.05);
+}
+
+
+/* =========================================================
+   PACKAGE CONTENT
+========================================================= */
+
+.package-card-content {
+    padding: 26px 22px 30px;
+}
+
+.package-location {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.package-card-content h3 {
+    margin-bottom: 12px;
+}
+
+.package-card-content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* =========================================================
+   CUSTOM CARD
+========================================================= */
+
+.package-card-custom {
+    min-height: 420px;
+}
+
+.package-card-custom-content {
+    height: 100%;
+    padding: 35px 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+    .packages-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .packages-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .package-card-image {
+        height: 400px;
+    }
+
+}
+
+
+/* =========================================================
+   REQUEST HERO
+========================================================= */
+
+.request-hero {
+    position: relative;
+    min-height: 680px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #111;
+}
+
+/* HERO OVERLAY */
+
+.request-hero-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+    background-image: url(../images/old-map.png);
+}
+
+/* HERO CONTENT */
+
+.request-hero-content {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 760px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-left: 0;
+    margin-right: auto;
+
+    color: #fff;
+}
+
+/* EYEBROW */
+
+.request-hero-content .eyebrow {
+    display: block;
+
+    margin-bottom: 25px;
+
+    color: #d4af37;
+
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+/* HEADING */
+
+.request-hero-content h1 {
+    margin: 0 0 26px;
+
+    max-width: 720px;
+
+    color: #fff;
+
+    font-size: clamp(48px, 6vw, 82px);
+    font-weight: 500;
+    line-height: 0.98;
+    letter-spacing: -2px;
+}
+
+.request-hero-content h1 span {
+    display: block;
+    color: #d4af37;
+}
+
+/* DESCRIPTION */
+
+.request-hero-content p {
+    max-width: 570px;
+
+    margin: 0 0 35px;
+
+    color: rgba(255, 255, 255, 0.82);
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/* BUTTON */
+
+.request-hero-content .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 52px;
+    padding: 0 30px;
+
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+    transition:
+        transform 0.3s ease,
+        background 0.3s ease,
+        color 0.3s ease;
+}
+
+.request-hero-content .btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1024px) {
+
+    .request-hero {
+        min-height: 620px;
+    }
+
+    .request-hero-content {
+        max-width: 680px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .request-hero-content h1 {
+        font-size: clamp(46px, 7vw, 68px);
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .request-hero {
+        min-height: 680px;
+        align-items: center;
+    }
+
+    .request-hero-overlay {
+        background:
+            linear-gradient(
+                180deg,
+                rgba(0, 0, 0, 0.60) 0%,
+                rgba(0, 0, 0, 0.68) 50%,
+                rgba(0, 0, 0, 0.78) 100%
+            );
+    }
+
+    .request-hero-content {
+        width: 100%;
+        max-width: 100%;
+
+        margin: 0;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .request-hero-content .eyebrow {
+        margin-bottom: 20px;
+
+        font-size: 9px;
+        letter-spacing: 2.2px;
+    }
+
+    .request-hero-content h1 {
+        max-width: 600px;
+
+        margin-bottom: 22px;
+
+        font-size: clamp(42px, 10vw, 58px);
+        line-height: 1;
+        letter-spacing: -1.5px;
+    }
+
+    .request-hero-content p {
+        max-width: 520px;
+
+        margin-bottom: 30px;
+
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    .request-hero-content .btn {
+        min-height: 50px;
+        padding: 0 25px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL PHONES
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .request-hero {
+        min-height: 650px;
+    }
+
+    .request-hero-content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .request-hero-content .eyebrow {
+        margin-bottom: 17px;
+
+        font-size: 8px;
+        letter-spacing: 1.8px;
+    }
+
+    .request-hero-content h1 {
+        margin-bottom: 20px;
+
+        font-size: 40px;
+        line-height: 1.02;
+        letter-spacing: -1px;
+    }
+
+    .request-hero-content p {
+        margin-bottom: 27px;
+
+        font-size: 13px;
+        line-height: 1.7;
+    }
+
+    .request-hero-content .btn {
+        width: 100%;
+        max-width: 220px;
+        min-height: 50px;
+    }
+
+}
+.request-hero-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("../images/old-map.png");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* =========================================================
+   DESTINATION COLLECTION
+========================================================= */
+
+.destination-collection {
+    padding: 110px 0;
+}
+
+.destination-collection .container {
+    width: 100%;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+    width: 100%;
+}
+
+.destination-card {
+    width: 100%;
+    min-width: 0;
+}
+
+.destination-image {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    overflow: hidden;
+}
+
+.destination-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.destination-card:hover .destination-image img {
+    transform: scale(1.04);
+}
+
+
+/* =========================================================
+   DESTINATION CONTENT
+========================================================= */
+
+.destination-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding: 35px 28px 30px;
+
+    color: #fff;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(0, 0, 0, 0.85) 0%,
+            rgba(0, 0, 0, 0.60) 45%,
+            transparent 100%
+        );
+}
+
+.destination-country {
+    display: block;
+    margin-bottom: 12px;
+
+    color: #d4af37;
+
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.destination-content h3 {
+    margin: 0 0 12px;
+
+    color: #fff;
+
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.05;
+}
+
+.destination-content p {
+    max-width: 360px;
+
+    margin: 0 0 20px;
+
+    color: rgba(255, 255, 255, 0.78);
+
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.destination-price {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    margin-bottom: 22px;
+}
+
+.destination-price strong {
+    color: #fff;
+
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.destination-price small {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 11px;
+}
+
+.destination-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #fff;
+
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition: gap 0.3s ease, color 0.3s ease;
+}
+
+.destination-link span {
+    color: #d4af37;
+    font-size: 16px;
+}
+
+.destination-link:hover {
+    gap: 13px;
+    color: #d4af37;
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .destination-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .destination-image {
+        height: 500px;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .destination-collection {
+        padding: 80px 0;
+    }
+
+    .destination-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .destination-image {
+        height: 500px;
+    }
+
+    .destination-content {
+        padding: 35px 24px 28px;
+    }
+
+    .destination-content h3 {
+        font-size: 28px;
+    }
+
+}
+.destination-detail-hero-content h1 {
+    color: #fff !important;
+}
+
+.destination-detail-hero-content .eyebrow {
+    color: #d4af37;
+}
+
+.destination-hero-meta span {
+    color: #fff;
 }
